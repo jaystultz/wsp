@@ -1,0 +1,1127 @@
+body{ 
+	font-family: 'Telex', Helvetica, Arial, sans-serif; /* 16px */
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 125%;
+	max-width: 68.055555555556%; /*980px/1440px --  1440px=width of laptop ------------*/
+	margin: 0 auto;
+	background-image: url("../images/blue_swirl copy.jpg");
+	background-attachment: fixed;
+	-ms-opacity: 0.9;
+	-moz-opacity: 0.9; 
+	-webkit-opacity: 0.9;
+	-o-opacity: 0.9;
+	opacity: 0.9;
+}
+
+#wrapper{
+	width: 100%; /* 960px */
+	margin: 0 auto;
+	background: none;	
+}
+
+.container{
+	max-width: 100%; /* 960px */
+	overflow: hidden;
+	background-image: url("../images/Gray_Gradient.jpg");
+	background-repeat: repeat-x;
+	background-color: #A8A8A8;
+	margin: 0 auto;
+	padding: 1.041666666667%; 
+}
+
+p{ 
+	font-size: 0.875em;	/* 14px */
+	font-weight: normal;
+}
+
+/* General page link properties--------------------------------------------------------*/
+
+a:link{
+	color: #5174d5;
+}
+
+a:visited{
+	color: #a8a8a8;
+}
+
+a:hover{
+	color: #fff;
+}
+
+a:active{
+	color: #000;
+}
+
+
+/*end----------------------------------------------------------------------------------*/
+
+
+/*Header-------------------------------------------------------------------------------*/
+#logo{
+	width: 65.30612244898%; /*640px / 980px*/
+	float: left;
+	padding: 0.78125%; /* 5px / 640px */
+}
+.logo{  
+	width: 25%; 
+	margin: -2% 0.510204081633% 0% 0.510204081633%;
+	float: left;
+	clear: both;
+}
+
+
+#shark{
+	width: 30%; 
+	margin: 0%; 
+	float: right;
+}
+
+
+h1{
+	font-family: 'Shojumaru', Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	color: #101010;
+	font-size: 2em;	
+	width: 130%;
+	margin: 0%; 
+	float: left;
+	clear: both;
+	text-shadow: 4px 4px 8px #686868; 
+}
+
+h2{
+	font-family: 'Telex', Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	color: #101010;
+	font-size: 1.5em; 
+	width: 100%;
+	float: left;
+	clear: both;
+	text-shadow: 4px 4px 8px #686868; 
+}
+/*Header end---------------------------------------------------------------------------*/
+
+/*Main Nav-----------------------------------------------------------------------------*/
+
+nav{
+	font-size: 1.125em;
+}
+
+.nav{
+	width: 102.083333333333%;  /*960px / 980px*/
+	margin: 1.041666666667% 0% -1.041666666667% -1.041666666667%; /*10px 0px -10px -10px* ALL / 960px */
+	overflow: hidden;
+	background-color: #fff;
+	list-style-type: none;
+	padding: 0;
+	float: left;
+	clear: both;
+}
+
+.listnav{
+	width: 33.333333333333%; /*326.666666666667px / 980px*/
+	background: #fff;
+	float: left;
+	clear: right;
+}
+
+a.hoverable{
+	text-decoration: none;
+	background: #fff;
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #5174d5;
+}
+
+a.hoverable:hover{
+	color: #fff;
+	background-color: #5174d5;
+}
+
+a:link{
+	color: #5174d5;
+}
+
+a:visited{
+	color: #a8a8a8;
+}
+
+a:hover{
+	color: #fff;
+}
+
+a:active{
+	color: #000;
+}
+/*Main Nav end-------------------------------------------------------------------------*/
+
+/*Introduction Content-----------------------------------------------------------------*/
+
+.grinddefinition{
+	width: 100%; 
+	display: block;
+	font-size: 1.57142857142857em; /* 22px */
+	margin: 2.083333333333% 4.166666666667% -0.520833333333%;  /* margins / 960 */ /*2.040816326531% 4.81632653061%; -0.510204081633% 0%; /*20px 40px -5px ALL / 980px*/
+	line-height: 150%; /*30px*/
+	float: left;
+	clear: both;
+}
+
+.introductioninfo{
+	width: 64.897959183673%; /* 636px /980px */
+	padding: 2.358490566038% 1.572327044025%; /*15px 10px both/ 636px*/
+	display: block;
+	text-align: left;
+	float: left;
+	margin: -1.020408163265% 1.020408163265%; /*-10px 10px / 980px*/
+	clear: both;
+}
+
+.link{
+	width: 20.408163265306%; 
+	margin: -17% 3.061224489796%; 
+	border: 5px solid #707070; 
+	display: block;
+	padding: 10px;
+	background-color: #e3edff;
+	border-radius: 15px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 1.125em; /* 18px */
+	line-height: 125%;
+	float: right;
+	clear: both;
+	color: #5174d5;
+}
+
+a.hover{
+	text-decoration: none;
+	background: none;
+	text-align: center;
+	color: #5174d5;
+}
+
+a.hover:hover{
+	color: #fff;
+}
+
+a:link{
+	color: #5174d5;
+}
+
+a:visited{
+	color: #a8a8a8;
+}
+
+a:hover{
+	color: #fff;
+}
+
+a:active{
+	color: #000;
+}
+
+
+/*Introduction Content end-------------------------------------------------------------*/
+
+/*Gallery------------------------------------------------------------------------------*/
+
+#galleryheading{
+	margin: 2.040816326531% 2.040816326531%; 
+	font-size: 1em;
+	font-weight: bold;
+	float: left;
+	clear: both;
+}
+
+#gallery{
+	width: 90%; 
+	margin: 0 auto;
+	clear: right;
+}
+
+.imagegallery{
+	list-style-type: none;
+	border: 3px dotted #fff;
+	width: 97%; 
+	margin: 0% 1%;
+	overflow: hidden;
+	padding: 0%;
+	float: left;
+	clear: right;
+}
+
+.gallerylist{
+	display: inline-block;
+	margin: 1%;
+	max-width: 17%;
+}
+
+.gallerylink{
+	border: 5px solid;
+	display: block;
+	margin: .5%;
+}
+
+
+img{
+	max-width: 100%;
+}
+
+
+/*Gallery end--------------------------------------------------------------------------*/
+
+/*Gallery Links properties-------------------------------------------------------------*/
+.gallerylink:link{
+	border-color: #e3edff;
+}
+
+.gallerylink:visited{
+	border-color: #a8a8a8;
+}
+
+.gallerylink:hover{
+	border-color: #fff;
+}
+
+.gallerylink:active{
+	border-color: #000;
+}
+/*Gallery Links end--------------------------------------------------------------------*/
+
+/*Sharks Facts-------------------------------------------------------------------------*/
+
+#SharkFacts{
+	margin: 2.083333333333% 2.083333333333% -0.520833333333%; /* 20px 20px -5px /960*/
+	font-size: 1em;
+	float: left;
+	clear: both;
+}
+
+.sharkfacts{
+	margin: -3.125% 2.083333333333% 1.041666666667%; /*-30px 20px 10px / 960px*/
+	list-style-type: circle;	
+	clear: both;
+}
+
+/*Sharks Facts end---------------------------------------------------------------------*/
+
+/*Why Sharks Bite People---------------------------------------------------------------*/
+
+#Article{
+	margin: 0% 2.083333333333%; /*0 20px / 960px*/
+	font-size: 1.125em;
+ 	clear: both;
+}
+
+section{
+	margin: 0 auto;
+	width: 87.755102040816%; 
+}
+
+.columns{
+	column-count: 3;
+	-moz-column-count: 3;
+	-ms-column-count: 3;
+	-o-column-count: 3;
+	-webkit-column-count: 3;
+	text-align: left;
+	padding: 0.581395348837%; /*5px/860px*/
+	margin: 0 auto;
+	line-height: 120%;
+	width: 89.583333333333%; /* 860px/960px*/
+	max-height: 100%;
+}
+
+strong
+{
+-web-font-weight: 700;
+}
+/*Why Sharks Bite People end-----------------------------------------------------------*/
+
+/*External Link------------------------------------------------------------------------*/
+
+aside{
+	margin: 0% 6%; /* 0 20px / 960px*/
+	clear: both;
+}
+
+h4{
+	font-size: 1em; /*18px*/
+	width: 100%;
+	margin: 3% 0% 0%;
+	float: left;
+	clear: both;
+	
+}
+/*External Link end--------------------------------------------------------------------*/
+
+/*Top Link-----------------------------------------------------------------------------*/
+
+.toplink{
+	margin: 2.040816326531% 4.081632653061%; /*20px 40px/980px*/
+	padding: 1.020408163265%; /*10px;*/
+	width: 3.061224489796%; /*30px / 980px*/
+	float: left;
+	clear: both;
+}
+/*Top Link end-------------------------------------------------------------------------*/
+
+/*TABLE--------------------------------------------------------------------------------*/
+
+#member{
+	width: 100%;
+	margin: 8% -2% 0% -2%;
+	font-size: 1.75em;
+	color: #fff;
+	line-height: 150%;
+	text-align: center;
+	padding: 4% 3%;
+	background-color: #484848;
+}
+
+#plans{
+	width: 100%;
+	margin: 0% 0% 0% -1%;
+	font-size: 1.125em;
+	color: #fff;
+	line-height: 100%;
+	text-align: left;
+	padding: 2% 3%;
+	background-color: #484848;
+	float: left;
+	clear: right;
+}
+
+table{
+	border-collapse: collapse;
+	float: left;
+	clear: right;
+	width: 37%;
+	margin: 1% 1% 5% 1%;
+}
+
+th{
+	font-size: 1.1em;
+	line-height: 150%;
+	text-align: center;
+	color: #fff;
+	background-color: #5174d5;
+}
+
+th.th1{
+	border-top-left-radius: 10px;	
+	padding: 5%;
+}
+
+th.th2{
+	border-top-right-radius: 10px;	
+	padding: 5%;
+}
+
+td{
+	border: none;
+	font-size: 0.75em;
+	line-height: 120%;
+	background-color: #fff;
+	color: #5174d5;
+	padding: 4%;
+	text-align: center;
+}
+
+td.td3{
+	border-bottom-left-radius: 10px;
+
+}
+td.td4{
+	background: none;
+}
+
+td.td5{
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+
+}
+
+/*TABLE end----------------------------------------------------------------------------*/
+
+/*FORM---------------------------------------------------------------------------------*/
+
+#signup{
+	background-color: #484848;
+	margin: 0% -2%;
+	padding: 3% 0%;
+}
+
+form{
+	background: none;
+}
+
+input{
+	background: #e0e0e0;
+	margin: 0.5% 1%;
+}
+input:focus{
+	background-color: #5174d5;
+	border: 1px solid #fff;
+}
+
+#sign_up{
+	width: 100%;
+	margin: -12% 0% -2% 25%;
+	font-size: 1.125em;
+	color: #fff;
+	line-height: 100%;
+	text-align: left;
+	padding: 2% 3% 0% 3%;
+	background-color: #484848;
+	float: left;
+	clear: right;
+}
+
+fieldset{
+	border: none;
+	margin: 4% 0% 0% 0%;
+}
+
+label{
+	font-size: .8em;
+	color: #fff;
+	width: 25%;
+	float: left;
+	text-align: right;
+	clear: both;
+	margin: 0.5% 1%;
+	display: block;
+}
+
+textarea{
+	margin: 1.5% 1% .5% 1%;
+	background-color: #e0e0e0;
+}
+
+textarea:focus{
+	border: 2px solid #5174d5;
+}
+
+.hear{
+	margin-bottom: 3%;
+}
+
+#hear_us{
+	margin: 2% 1%;
+	width: 30%;
+	font-size: .8em;
+}
+
+#agree_terms{
+	float: left;
+	clear: right;
+	max-width: 100%;
+	margin: 1% 2% 4% 28%;
+}
+
+.agree_terms{
+	font-size: .75em;
+	color: #fff;
+}
+
+button{
+	width: 25%;
+	font-size: 1.125em;
+	background-color: #5174d5;
+	color: #fff;
+	margin-left: 28%;
+	margin-bottom: 10%;
+	padding: 1%;
+	border-radius: 5px;
+}
+
+.submit:hover{
+	text-decoration: underline;
+	color: #5174d5;
+	background-color: #fff;
+}
+/*FORM end-----------------------------------------------------------------------------*/
+
+
+
+/*FOOTER-------------------------------------------------------------------------------*/
+
+footer{
+	width: 100%;
+	line-height: 110%;
+	margin: -1% 5% -3% 1%;
+	padding: 1.0416666666675%; /*10px /960px*/
+	float: left;
+	clear: both;
+}
+
+/*FOOTER end---------------------------------------------------------------------------*/
+
+
+/* =Media Queries
+=======================================================================================*/
+
+	/* Tablet Portrait size to standard 960 (devices and browsers)*/
+	@media screen and (min-width: 768px) and (max-width: 959px){
+	
+		.logo{  /* 100px X 100px */
+			width: 25%; /*10.204081632653%; /*100px/ 980px */
+			margin: 0% 0% 4.166666666666% 2%; 
+		}
+		#shark{
+			margin: 2% 3% 0% 0%; 
+		}
+		
+		h1{
+			margin: 0% 0% 4.166666666666% 3%;
+			text-indent: -2%;
+			max-width: 100%;
+			clear: both
+		}
+		
+		
+		
+		h2{
+			margin: 0% 0% 4.166666666666% 0%; 
+			text-indent: 1%;
+			max-width: 100%;
+			clear: both;
+		}
+		
+		.grinddefinition{
+			width: 100%;
+			font-size: 1.25em; /* 20px */
+			margin: 4.166666666666% 2.083333333333% 0%; 
+			text-align: left; 
+		}
+		
+		.introductioninfo{
+			width: 60%;
+			padding: 1%;
+			margin: 0% 2%;
+			clear: right;	
+		}
+		
+		.link{
+			width: 25%;
+			margin: -25% 3% 20% 5%; 
+		}
+		
+		.imagegallery{
+			margin: 0% 1%;
+			padding: 0;
+			clear: none;
+		}
+		
+		.gallerylist{
+			margin: 5% 20%;
+			max-width: 100%;
+		}
+
+
+		.gallerylink{
+			margin: 0%;
+		}
+		
+		.columns{
+			column-count: 1;
+			-moz-column-count: 1;
+			-ms-column-count: 1;
+			-o-column-count: 1;
+			-webkit-column-count: 1;
+			text-align: left;
+			margin: -3% auto;
+		}
+		
+		.toplink{
+			margin: -2.040816326531% 4.081632653061% 2.040816326531%; /*20px 40px/980px*/
+		}
+		
+		#plans{
+			font-size: 1.25em;
+			width: 40%;
+			margin: 0% 30%;
+			background: none;
+		}
+		
+		table{
+			width: 90%;
+			margin: 2% 5% 5% 5%;
+			float: none;
+			clear: none;			
+		}
+		
+		th.th1{
+			font-size: 1.5em;
+		}
+
+		th.th2{
+			font-size: 1.5em;
+		}
+		
+		#sign_up{
+			background: none;
+			max-width: 100%;
+			margin: -3% 0% 5% 0%;
+			font-size: 1.5em;
+			text-align: center;
+			text-decoration: underline;
+		}
+		
+		#signup{
+			padding: 1%;
+		}
+		
+		label{
+			margin: 0.5% 1% 0.5% 8%;
+		}
+		
+		#agree_terms{
+			margin: 1% 2% 4% 35%;
+		}
+		
+		.agree_terms{
+			margin: 1% 2% 4% 35%;
+			font-size: .8em;
+		}
+		
+		button{
+			margin-left: 35%;
+		}
+	}
+	
+	
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers)=================*/
+	@media only screen and (min-width: 480px) and (max-width: 767px){
+	
+		p{
+			font-size: .875em; /*14px*/
+		}
+		
+		a.hover{
+			color: blue;
+		}		
+		
+		a:link{
+			color: blue;
+		}
+		
+		.logo{  /* 100px X 100px */
+			width: 40%; /*10.204081632653%; /*100px/ 980px */
+			margin: 0% 0% 4.166666666666% 2%; 
+		}
+		
+		#shark{
+			margin: 5% 3% 0% 0%; 
+		}
+
+		h1{
+			font-size: 1.75em;	/* 36px/18px */
+			text-indent: -2%;
+			margin: 0% 0% 4.166666666666% 3%; 
+			max-width: 100%;
+			clear: both
+		}
+		
+		h2{
+			font-size: 1.25em;
+			text-indent: 1%;
+			margin: 2% 0% 4.166666666666% 0%; 
+			width: 140%;
+			clear: both;
+		}
+		
+		.nav{
+			display: none;
+		}
+		
+		.grinddefinition{
+			width: 100%;
+			font-size: 1.25em; /* 20px */
+			margin: 4.166666666666% 2.083333333333% 0%; 
+			text-align: left; 
+		}
+		
+		.introductioninfo{
+			width: 95%;
+			padding: 0;
+			margin: 0% 2%;
+		}
+
+		.link{
+			width: 60%;
+			margin: 5% 25% 0% 15%;
+			padding: 4%;
+			font-size: 1em; /* 16px */
+			color: blue;
+			float: left;
+		}	
+		
+		#galleryheading{
+			font-size: .875em; /*14px*/
+		}
+		
+		.imagegallery{
+			margin: 0% 1%;
+			padding: 0;
+			clear: none;
+		}
+		
+		.gallerylist{
+			margin: 5% 10% 5% 15%;
+			max-width: 70%;
+		}
+
+		.gallerylink{
+			margin: 0%;
+		}
+		
+		.gallerylink:link{
+			border-color: #fff;
+		}
+
+		#SharkFacts{
+			font-size: .875em; /*14px*/
+		}
+
+		.sharkfacts{
+			font-size: .875em; /*14px*/
+			margin: 0% 4% 5% 0%;
+		}
+
+		#Article{
+			font-size: 1em;
+			margin: 5% 0% -1% 2.083333333333%;
+		}
+
+		.columns{
+			column-count: 1;
+			-moz-column-count: 1;
+			-ms-column-count: 1;
+			-o-column-count: 1;
+			-webkit-column-count: 1;
+			margin: -3% auto 3% auto;
+		}
+
+		h4{
+			font-size: 1em; /*16px*/
+		}
+		
+		.toplink{
+			display: none;
+			color: blue;
+		}
+				
+		#plans{
+			font-size: 1.25em;
+			width: 100%;
+			margin: 1% 0%;
+			text-align: center;
+			background: none;
+		}
+		
+		table{
+			width: 90%;
+			margin: 2% 5% 5% 5%;
+			float: none;
+			clear: none;			
+		}
+		
+		th.th1{
+			font-size: 1em;
+		}
+
+		th.th2{
+			font-size: 1em;
+		}
+				
+		#sign_up{
+			background: none;
+			max-width: 100%;
+			margin: -3% 0% 5% 0%;
+			font-size: 1.25em;
+			text-align: center;
+			text-decoration: underline;
+		}
+		
+		#signup{
+			padding: 1%;
+		}
+		
+		label{
+			font-size: .7em;
+			width: 30%;
+			margin: 0.5% 1% 0.5% 1%;
+		}
+		
+		input{
+			margin: 1%;
+		}
+		
+		#bio{
+			width: 58%;
+		}
+		
+		.hear{
+			margin: 5% 0% 4% 0%;
+		}
+
+		#hear_us{
+			margin: 1% 1% 4% 1%;
+			width: 30%;
+			font-size: .8em;
+		}
+		
+		#agree_terms{
+			margin: 1% 2% 4% 34%;
+		}
+		
+		.agree_terms{
+			margin: 5% 2% 4% 32%;
+			font-size: .8em;
+		}
+		
+		button{
+			margin: 2% 0% 4% 33%;
+			width: 35%;
+		}
+	}	
+	
+	
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers)============*/
+	@media only screen and (max-width: 479px){
+	
+		body{
+			background-image: url("../images/Gray_Gradient.jpg");
+			background-repeat: repeat-x;
+			background-color: #A8A8A8;
+			background-attachment: fixed;
+		}
+		
+		.container{
+			background: none;
+		}
+	
+		p{
+			font-size: .8125em; /*13px*/
+		}
+		
+		a.hover{
+			color: blue;
+		}	
+		
+		a.hover:hover{
+			color: #fff;
+		}	
+		
+		a:link{
+			color: blue;
+		}
+		
+		a:hover{
+			color: #fff;
+		}
+		
+		.logo{  /* 100px X 100px */
+			display: none;
+		}
+
+		#shark{
+			display: none;
+		}
+
+		h1{
+			font-size: 1.5em;
+			line-height: 120%;	
+			margin: 10% 10% 4.166666666666%; 
+			padding: 5%;
+		}
+		
+		h2{
+			display: none;
+		}
+		
+		.nav{
+			display: none;
+		}
+		
+		.grinddefinition{
+			text-indent: 3%;
+			width: 100%;
+			font-size: 1em;
+			margin: 4.166666666666% 2.083333333333%; 
+			text-align: left; 
+		}
+		
+		.introductioninfo{
+			width: 95%;
+			padding: 0;
+		}
+
+		.link{
+			width: 60%;
+			margin: 5% 25% 0% 10%;
+			padding: 4%;
+			font-size: 1em; /* 16px */
+			color: blue;
+			float: left;
+		}	
+		
+		#galleryheading{
+			font-size: .875em; /*14px*/
+		}
+		
+		.imagegallery{
+			border: none;
+			margin: 0 auto;
+			padding: 0;
+			clear: none;
+		}
+		
+		.gallerylist{
+			margin: 5% 20%;
+			max-width: 60%;
+		}
+
+		.gallerylink{
+			margin: 0%;
+		}
+
+		.gallerylink:link{
+			border-color: #fff;
+		}
+		
+		#SharkFacts{
+			font-size: .875em; /*14px*/
+		}
+
+		.sharkfacts{
+			font-size: .875em; /*14px*/
+			margin: 0 auto 5% -6%;
+		}
+
+		#Article{
+			font-size: 1em;
+			margin: 5% 0% -1% 2.083333333333%;
+		}
+
+		.columns{
+			column-count: 1;
+			-moz-column-count: 1;
+			-ms-column-count: 1;
+			-o-column-count: 1;
+			-webkit-column-count: 1;
+			margin: -3% auto 3% auto;
+		}
+
+		h4{
+			font-size: 1em; /*16px*/
+			margin: 0%;
+		}
+		
+		aside{
+			margin: 0% 0% 15% 0%;
+		}
+				
+		.toplink{
+			display: none;
+			color: blue;
+		}
+
+		#member{
+			font-size: 1.5em;
+		}
+		
+		#plans{
+			font-size: 1.25em;
+			width: 100%;
+			margin: 8% 0% 3% 0%;
+			text-align: center;
+			color: #484848;
+			background: none;
+			padding: 1% 0%;
+		}
+		
+		table{
+			width: 100%;
+			margin: 2% 0% 10% 0%;
+			float: none;
+			clear: none;
+		}
+				
+		th.th1{
+			font-size: .8em;
+		}
+
+		th.th2{
+			font-size: .8em;
+			padding: 1%;
+		}
+		
+		#sign_up{
+			background: none;
+			max-width: 100%;
+			margin: 0% auto 5% -2%;
+			font-size: 1.25em;
+			text-align: left;
+			text-decoration: none;
+		}
+		
+		#signup{
+			padding: 1%;
+		}
+		
+		label{
+			font-size: .7em;
+			width: 50%;
+			margin: 1%;
+			text-align: left;
+		}
+		
+		input{
+			margin: 1%;
+			width: 90%;
+		}
+		
+		#bio{
+			width: 90%;
+			margin: 2% 1%;
+		}
+		
+		.hear{
+			margin: 1% auto;
+		}
+
+		#hear_us{
+			margin: 0% 1%;
+			width: 90%;
+			font-size: .8em;
+		}
+			
+		#agree_terms{
+			margin: 2% 4% 20% 0%;
+			width: 10%;
+		}
+		
+		.agree_terms{
+			margin: 3% 2% 6% 2%;
+			font-size: .8em;
+		}
+		
+		button{
+			margin: 8% 20% 12% 20%;
+			width: 60%;
+		}
+	}
+	
+		
+	
+	
+	
+
+
