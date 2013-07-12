@@ -43,6 +43,17 @@ h3{
 	margin-left: 2%;
 }
 
+h4{
+	font-family: 'Telex', Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	font-size: 1em;	
+	color: #000;
+	text-decoration: underline;
+	margin-left: 2%;
+	margin-top: 5%;
+	margin-bottom: -1%;
+}
+
 p{ 
 	font-size: 0.875em;	/* 14px */
 	font-weight: normal;
@@ -51,10 +62,14 @@ p{
 .goals{
 	margin-top: -1%;
 	margin-bottom: 5%;
+	line-height: 140%;
 }
 
 ul{
 	margin-left: 2%;
+	list-style-type: square;
+	line-height: 180%;
+
 }
 
 li{
@@ -62,31 +77,66 @@ li{
 	font-weight: normal;
 }
 
-.d3{
-	margin-left: 2%;
-}
-
-.qt2{
-
-}
-
-.tricoach{
-
-}
-
-
 strong{
 	-web-font-weight: 700;
 }
 
-.indent{
+#d3{
+	margin-left: 2%;
+	font-size: 1.125em;
+}
 
+.d3{
+	line-height: 140%;
+}
+
+#qt2{
+	margin-left: 2%;
+	font-size: 1.125em;
+}
+
+.qt2{
+	line-height: 140%;
+}
+
+#tricoach{
+	margin-left: 2%;
+	font-size: 1.125em;
+}
+.tricoach{
+	line-height: 140%;
+}
+
+.indent{
+	list-style-type: circle;
+	font-size: 1em;
+	line-height: 150%;
 }
 
 .competitor{
 	margin-top: 2%;
 	margin-bottom: 5%;
 }
+
+#amy{
+	margin-left: 2%;
+	font-size: 1.25em;
+}
+.amy{
+	line-height: 140%;
+	margin-bottom: 5%;
+}
+
+#john{
+	margin-left: 2%;
+	font-size: 1.25em;
+}
+
+.john{
+	line-height: 140%;
+}
+
+
 /* General page link properties--------------------------------------------------------*/
 
 a:link{
