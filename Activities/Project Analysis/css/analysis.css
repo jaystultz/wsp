@@ -180,65 +180,29 @@ a:hover{
 a:active{
 	color: #000;
 }
-
+/* General page link properties end----------------------------------------------------*/
 
 /* =Media Queries
 =======================================================================================*/
 
 	/* Tablet Portrait size to standard 960 (devices and browsers)*/
 	@media screen and (min-width: 768px) and (max-width: 959px){
-	
-		h1{
-			margin: 0% 0% 4.166666666666% 3%;
-			text-indent: -2%;
-			max-width: 100%;
-			clear: both
-		}
-
-		h2{
-			margin: 0% 0% 4.166666666666% 0%; 
-			text-indent: 1%;
-			max-width: 100%;
-			clear: both;
-		}
 		
-	}
-	
+		h1{
+			padding: 1.75% 0%;
+		}	
 	
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers)=================*/
 	@media only screen and (min-width: 480px) and (max-width: 767px){
 	
-		p{
-			font-size: .875em; /*14px*/
+		body{
+			line-height: 130%;
 		}
 		
-		a.hover{
-			color: blue;
-		}		
-		
-		a:link{
-			color: blue;
+		header{
+			font-size: .5em;
 		}
-		
-		h1{
-			font-size: 1.75em;	/* 36px/18px */
-			text-indent: -2%;
-			margin: 0% 0% 4.166666666666% 3%; 
-			max-width: 100%;
-			clear: both
-		}
-		
-		h2{
-			font-size: 1.25em;
-			text-indent: 1%;
-			margin: 2% 0% 4.166666666666% 0%; 
-			width: 140%;
-			clear: both;
-		}
-		
-		h4{
-			font-size: 1em; /*16px*/
-		}
+	
 	}	
 	
 	
@@ -286,7 +250,8 @@ a:active{
 		
 		.indent{
 		font-size: 1.125em;
-		width: 75%;
+		width: 70%;
+		margin-left: 0%;
 		}
 		
 		h4{
