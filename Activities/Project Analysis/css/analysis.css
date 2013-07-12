@@ -6,7 +6,6 @@ body{
 	max-width: 98%; 
 	margin: 1%;
 	border: 1em solid #595A5A;
-
 }
 
 .container{
@@ -166,6 +165,22 @@ a.hover:hover{
 	color: #fff;
 }
 
+a:link{
+	color: #5174d5;
+}
+
+a:visited{
+	color: #a8a8a8;
+}
+
+a:hover{
+	color: #fff;
+}
+
+a:active{
+	color: #000;
+}
+
 
 /* =Media Queries
 =======================================================================================*/
@@ -230,48 +245,54 @@ a.hover:hover{
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers)============*/
 	@media only screen and (max-width: 479px){
 	
-		body{
+		body{ 
+			line-height: 130%;
+			max-width: 100%; 
+			margin: 0% auto;
+			border: .5em solid #8AB8E6;
 		}
 		
 		.container{
+		border: none;
+		}
+
+		header{
+			font-size: 1em;
+			line-height: 100%;
+			margin-bottom: 7%;
 		}
 	
 		p{
-			font-size: .8125em; /*13px*/
-		}
-		
-		a.hover{
-			color: blue;
-		}	
-		
-		a.hover:hover{
-			color: #fff;
-		}	
-		
-		a:link{
-			color: blue;
-		}
-		
-		a:hover{
-			color: #fff;
+			font-size: .75em; 
 		}
 		
 		h1{
-			font-size: 1.5em;
-			line-height: 120%;	
-			margin: 10% 10% 4.166666666666%; 
+			margin: 0%; 
+			font-size: 1.25em;
 			padding: 5%;
+			max-width: 75%;
 		}
 		
-		h2{
-			display: none;
+		h3{
+			font-size: 1em;	
+			margin: 3% auto;
+		}
+		
+		ul{
+			margin: 1% 1% 1% -10%;
+			font-size: .85em; 
+			line-height: 130%;
+		}
+		
+		.indent{
+		font-size: 1.125em;
+		width: 75%;
 		}
 		
 		h4{
-			font-size: 1em; /*16px*/
-			margin: 0%;
+			font-size: .75em;
+			margin: 10% 0%;
 		}
-		
 	}
 	
 		
