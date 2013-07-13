@@ -58,10 +58,8 @@ body{
 .container{
 	max-width: 100%; /* 960px */
 	overflow: hidden;
-	background-image: url("../images/Gray_Gradient.jpg");
-	background-repeat: repeat-x;
-	background-color: #A8A8A8;
 	margin: 0 auto;
+	background-attachment: fixed;
 	padding: 1.041666666667%; 
 	
 	/* IE10 Consumer Preview */ 
