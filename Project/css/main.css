@@ -138,6 +138,61 @@ a:active{
 	clear: both;
 }
 
+/*Main Nav-----------------------------------------------------------------------------*/
+
+nav{
+	font-size: 1.125em;
+}
+
+.nav{
+	width: 102.083333333333%;  /*960px / 980px*/
+	margin: 1.041666666667% 0% -1.041666666667% -1.041666666667%; /*10px 0px -10px -10px* ALL / 960px */
+	overflow: hidden;
+	background-color: #fff;
+	list-style-type: none;
+	padding: 0;
+	float: left;
+	clear: both;
+}
+
+.listnav{
+	width: 33.333333333333%; /*326.666666666667px / 980px*/
+	background: #fff;
+	float: left;
+	clear: right;
+}
+
+a.hoverable{
+	text-decoration: none;
+	background: #fff;
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #5174d5;
+}
+
+a.hoverable:hover{
+	color: #fff;
+	background-color: #5174d5;
+}
+
+a:link{
+	color: #5174d5;
+}
+
+a:visited{
+	color: #a8a8a8;
+}
+
+a:hover{
+	color: #fff;
+}
+
+a:active{
+	color: #000;
+}
+/*Main Nav end-------------------------------------------------------------------------*/
 
 #shark{
 	width: 30%; 
