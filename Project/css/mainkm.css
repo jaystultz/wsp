@@ -3,7 +3,7 @@ body{
 	font-weight: 400;
 	font-size: 1em;
 	line-height: 125%;
-	max-width: 68.055555555556%; /*980px/1440px --  1440px=width of laptop ------------*/
+	width: 80%; 
 	margin: 0 auto;
 	background-attachment: fixed;
 	/* IE10 Consumer Preview */ 
@@ -24,12 +24,6 @@ body{
 
 	/* W3C Markup, IE10 Release Preview */ 
 	background-image: linear-gradient(to bottom, #FFFFFF 0%, #F9FFC4 50%, #FFFF94 75%, #f8ed28 100%);
-
-	-ms-opacity: 0.9;
-	-moz-opacity: 0.9; 
-	-webkit-opacity: 0.9;
-	-o-opacity: 0.9;
-	opacity: 0.9;
 }
 
 #wrapper{
@@ -111,20 +105,7 @@ a:active{
 
 
 /*Header-------------------------------------------------------------------------------*/
- 
- /*Header-------------------------------------------------------------------------------*/
- #logo{
-	width: 100%; 
- 	float: left;
- 	padding: 0.78125%; /* 5px / 640px */
-	border: 1px solid #000;
- }
-
- .logo{  
-	width: 30%; 
- 	margin: -2% 0.510204081633% 0% 0.510204081633%;
- 	float: left;
- 	clear: both;#logo{
+#logo{
 	width: 65.30612244898%; /*640px / 980px*/
 	float: left;
 	padding: 0.78125%; /* 5px / 640px */
@@ -134,68 +115,6 @@ a:active{
 	margin: -2% 0.510204081633% 0% 0.510204081633%;
 	float: left;
 	clear: both;
-}
-
-/*Main Nav-----------------------------------------------------------------------------*/
-
-nav{
-	font-size: 1.125em;
-}
-
-.nav{
-	width: 102.083333333333%;  /*960px / 980px*/
-	margin: 1.041666666667% 0% -1.041666666667% -1.041666666667%; /*10px 0px -10px -10px* ALL / 960px */
-	overflow: hidden;
-	background-color: #fff;
-	list-style-type: none;
-	padding: 0;
-	float: left;
-	clear: both;
-}
-
-.listnav{
-	width: 33.333333333333%; /*326.666666666667px / 980px*/
-	background: #fff;
-	float: left;
-	clear: right;
-}
-
-a.hoverable{
-	text-decoration: none;
-	background: #fff;
-	display: block;
-	height: 30px;
-	line-height: 30px;
-	text-align: center;
-	color: #5174d5;
-}
-
-a.hoverable:hover{
-	color: #fff;
-	background-color: #5174d5;
-}
-
-a:link{
-	color: #5174d5;
-}
-
-a:visited{
-	color: #a8a8a8;
-}
-
-a:hover{
-	color: #fff;
-}
-
-a:active{
-	color: #000;
-}
-/*Main Nav end-------------------------------------------------------------------------*/
-
-#shark{
-	width: 30%; 
-	margin: 0%; 
-	float: right;
 }
 
 
@@ -1244,5 +1163,6 @@ footer{
 	
 	
 	
+
 
 
