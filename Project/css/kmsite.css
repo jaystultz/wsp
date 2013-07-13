@@ -3,30 +3,76 @@ body{
 	font-weight: 400;
 	font-size: 1em;
 	line-height: 125%;
-	max-width: 68.055555555556%; /*980px/1440px --  1440px=width of laptop ------------*/
+	max-width: 80%; 
 	margin: 0 auto;
-	background-image: url("../images/blue_swirl copy.jpg");
 	background-attachment: fixed;
-	-ms-opacity: 0.9;
-	-moz-opacity: 0.9; 
-	-webkit-opacity: 0.9;
-	-o-opacity: 0.9;
-	opacity: 0.9;
+
+	/* IE10 Consumer Preview */ 
+	background-image: -ms-linear-gradient(top, #FFFFFF 0%, #F9FFC4 50%, #FFFF94 75%, #f8ed28 100%);
+
+	/* Mozilla Firefox */ 
+	background-image: -moz-linear-gradient(top, #FFFFFF 0%, #F9FFC4 50%, #FFFF94 75%, #f8ed28 100%);
+
+	/* Opera */ 
+	background-image: -o-linear-gradient(top, #FFFFFF 0%, #F9FFC4 50%, #FFFF94 75%, #f8ed28 100%);
+
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), 
+	color-stop(0.5, #F9FFC4), color-stop(0.75, #FFFF94), color-stop(1, #f8ed28));
+
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #F9FFC4 50%, #FFFF94 75%, #f8ed28 100%);
+
+	/* W3C Markup, IE10 Release Preview */ 
+	background-image: linear-gradient(to bottom, #FFFFFF 0%, #F9FFC4 50%, #FFFF94 75%, #f8ed28 100%);
 }
 
 #wrapper{
-	width: 100%; /* 960px */
+	width: 100%; 
 	margin: 0 auto;
-	background: none;	
+	background-attachment: fixed;
+	
+	/* IE10 Consumer Preview */ 
+	background-image: -ms-linear-gradient(top, #FFFFFF 0%, #E5E6E6 50%, #B4B5B5 100%);
+
+	/* Mozilla Firefox */ 
+	background-image: -moz-linear-gradient(top, #FFFFFF 0%, #E5E6E6 50%, #B4B5B5 100%);
+
+	/* Opera */ 
+	background-image: -o-linear-gradient(top, #FFFFFF 0%, #E5E6E6 50%, #B4B5B5 100%);
+
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(0.5, #E5E6E6), color-stop(1, #B4B5B5));
+
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #E5E6E6 50%, #B4B5B5 100%);
+
+	/* W3C Markup, IE10 Release Preview */ 
+	background-image: linear-gradient(to bottom, #FFFFFF 0%, #E5E6E6 50%, #B4B5B5 100%);
 }
 
 .container{
 	max-width: 100%; /* 960px */
 	overflow: hidden;
-	background-image: url("../images/Gray_Gradient.jpg");
-	background-repeat: repeat-x;
-	background-color: #A8A8A8;
-	margin: 0 auto;
+
+	/* IE10 Consumer Preview */ 
+	background-image: -ms-linear-gradient(top, #FFFFFF 0%, #E5E6E6 100%);
+
+	/* Mozilla Firefox */ 
+	background-image: -moz-linear-gradient(top, #FFFFFF 0%, #E5E6E6 100%);
+
+	/* Opera */ 
+	background-image: -o-linear-gradient(top, #FFFFFF 0%, #E5E6E6 100%);
+
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1, #E5E6E6));
+
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #E5E6E6 100%);
+
+	/* W3C Markup, IE10 Release Preview */ 
+	background-image: linear-gradient(to bottom, #FFFFFF 0%, #E5E6E6 100%);	margin: 0 auto;
+	
 	padding: 1.041666666667%; 
 }
 
@@ -59,12 +105,14 @@ a:active{
 
 /*Header-------------------------------------------------------------------------------*/
 #logo{
-	width: 65.30612244898%; /*640px / 980px*/
+	width: 100%; 
 	float: left;
 	padding: 0.78125%; /* 5px / 640px */
+	border: 1px solid #000;
 }
+
 .logo{  
-	width: 25%; 
+	width: 30%; 
 	margin: -2% 0.510204081633% 0% 0.510204081633%;
 	float: left;
 	clear: both;
