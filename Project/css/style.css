@@ -10,9 +10,17 @@ nav li{
 	display: inline;
 }
 
+.imagegallery{
+	display: inline;
+}
 .footergallery{
 	display: inline;
 }
+
+.hear{
+	/*border: 1px solid #000;*/
+}
+
 /* =============================================================================
    Page Styles
    ========================================================================== */
