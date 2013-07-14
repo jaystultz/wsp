@@ -10,8 +10,8 @@ nav li{
 	display: inline;
 }
 
-.imagegallery{
-	display: inline;
+li{
+	list-style-type: none;
 }
 .footergallery{
 	display: inline;
