@@ -329,6 +329,17 @@ a:active{
 	background: linear-gradient(to bottom,  #f4ea7a 0%,#fff58e 50%,#fffab5 52%,#fffbd8 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4ea7a', endColorstr='#fffbd8',GradientType=0 ); /* IE6-9 */
 }
+
+#home:visited{
+background: #303030; /* Old browsers */
+background: -moz-linear-gradient(top,  #212121 0%, #505050 50%, #404040 52%, #212121 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#303030), color-stop(50%,#505050), color-stop(52%,#404040), color-stop(100%,#212121)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #303030 0%,#505050 50%,#404040 52%,#212121 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #303030 0%,#505050 50%,#404040 52%,#212121 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #303030 0%,#505050 50%,#404040 52%,#212121 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #303030 0%,#505050 50%,#404040 52%,#212121 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#303030', endColorstr='#212121',GradientType=0 ); /* IE6-9 */
+}
 /* END HOME NAV BUTTON */
 
 
