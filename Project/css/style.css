@@ -282,14 +282,8 @@ a:active{
 	background-color: #fff;
 }
 
-.highlight{ 
-	background:#666;
-}
 
-a.highlight{ 
-	color:#f5f5f5; 
-	cursor:default;
-}
+/*Main Nav end-------------------------------------------------------------------------*/
 
 .mainheader{
 	font-family: 'Cabin', Helvetica, Arial, sans-serif;
