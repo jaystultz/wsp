@@ -277,7 +277,7 @@ a:hover{
 	color: #f8ec24;
 }
 
-a:active{
+a.hoverable:active{
 	color: #000;
 	background-color: #fff;
 }
