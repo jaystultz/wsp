@@ -219,12 +219,23 @@ nav{
 }
 
 #nav{
+	/*outline: 2px solid #fff;*/
 	width: 100%;
-	margin-left: -8%;
+	margin-left: -4%;
 	margin-top: 10%;
 	margin-bottom: 10%;
 	list-style-type: none;
-	padding: none;
+	padding: 2%;
+	padding-right: 3%;
+	min-height: 2.5em;
+	background: #383838; /* Old browsers */
+	background: -moz-linear-gradient(left,  #212121 0%, #fdf021 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#383838), color-stop(100%,#fdf021)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #212121 0%,#fdf021 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #212121 0%,#fdf021 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #212121 0%,#fdf021 100%); /* IE10+ */
+	background: linear-gradient(to right,  #212121 0%,#fdf021 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#383838', endColorstr='#fdf021',GradientType=1 ); /* IE6-9 */
 }
 
 nav li{
