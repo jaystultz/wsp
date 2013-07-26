@@ -143,13 +143,20 @@ h1{
 	overflow: hidden;
 	background-color: #fff;
 	margin: -5% 0% 10% -3%;
+	padding-bottom: 1%;
 }
 
-#hawk{
-	margin-left; -3%;
-	float: left;
-	clear: right;
+#footergallery{
+	margin: 2% 0% 2% 10%;
 }
+
+footer img {
+	outline: 2px solid #000;
+	max-width: 100%;
+	min-height: 100px;
+	margin-bottom: 5%;
+}
+
 #contactinfo{
 	background-color: #212121;
 	width: 110%;
