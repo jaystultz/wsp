@@ -25,29 +25,8 @@ body{
 	background-repeat: no-repeat;
 }
 
-#headerimage{
-	float: none;
-	padding: none;
-}
-
-h1{
-	font-family: 'Cabin', Helvetica, Arial, sans-serif;
-	float: none;
-	padding-left: 3%;
-	padding-bottom: 3%;
-	background-color: #212121;
-	padding: 5% 3% 3% 3%;
-	margin-top: 0%;
-	margin-bottom: -3%;
-	border-top: 3px solid #fff;
-}
-
-#fbicon{
-	margin-left: 1%;
-}
-
-#emailicon{
-	margin-left: -3%;
+nav{
+	font-size: 1.125em;
 }
 
 footer{
@@ -115,13 +94,17 @@ a.email:active{
    ========================================================================== */
    
 /* =============================================
-   Homepage
+   HOME
    ============================================*/	
    
 /*====== Homepage Nav ======*/
 
-nav{
-	font-size: 1.125em;
+header{
+}
+
+#headerimage{
+	float: none;
+	padding: none;
 }
 
 .nav{
@@ -178,6 +161,17 @@ a:active{
 }
 /*====== Homepage Nav End ======*/
 
+h1{
+	font-family: 'Cabin', Helvetica, Arial, sans-serif;
+	float: none;
+	padding-left: 3%;
+	padding-bottom: 3%;
+	background-color: #212121;
+	padding: 5% 3% 3% 3%;
+	margin-top: 0%;
+	margin-bottom: -3%;
+	border-top: 3px solid #fff;
+}
 
 #welcome{
 	font-family: 'Telex', Helvetica, Arial, sans-serif;
@@ -192,11 +186,6 @@ a:active{
 	padding-left: 3%;
 }
 
-#coachtrevor1{
-	margin: -3% 3% 5% 0%;
-	width: 24%;
-}
-
 #signature{
 	text-align: left;
 	margin-top: 4%;
@@ -205,8 +194,21 @@ a:active{
 	color: #999;
 }
 
+#fbiconhome{
+	margin-left: 1%;
+}
+
+#emailiconhome{
+	margin-left: -3%;
+}
+
+#coachtrevor1{
+	margin: -3% 3% 5% 0%;
+	width: 24%;
+}
+
 /* =============================================
-   Philosophy
+   PHILOSOPHY
    ============================================*/	
 
 #logo{
@@ -563,6 +565,14 @@ a:active{
 	margin: 0 auto;
 	padding: 2%;
 }
+
+/* =============================================
+   GALLERY
+   ============================================*/	
+   
+/*img{
+	margin: 5%;
+}*/
 
 
 /* =============================================================================
