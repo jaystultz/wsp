@@ -1,0 +1,390 @@
+body{ 
+	font-family: 'Telex', Helvetica, Arial, sans-serif; /* 16px */
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 125%;
+	width: 80%; 
+	margin: 0 auto;
+	background-attachment: fixed;
+	}
+
+#wrapper{
+	width: 100%; /* 960px */
+	margin: 0% auto;
+	background-attachment: scroll;
+	overflow: hidden;
+	
+	/* IE10 Consumer Preview */ 
+	background-image: -ms-linear-gradient(top, #FFFFFF 0%, #ADADAD 50%, #999999 75%, #8A8A8A 100%);
+
+	/* Mozilla Firefox */ 
+	background-image: -moz-linear-gradient(top, #FFFFFF 0%, #ADADAD 50%, #999999 75%, #8A8A8A 100%);
+
+	/* Opera */ 
+	background-image: -o-linear-gradient(top, #FFFFFF 0%, #ADADAD 50%, #999999 75%, #8A8A8A 100%);
+
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(0.5, #ADADAD), color-stop(0.75, #999999), color-stop(1, #8A8A8A));
+
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #ADADAD 50%, #999999 75%, #8A8A8A 100%);
+
+	/* W3C Markup, IE10 Release Preview */ 
+	background-image: linear-gradient(to bottom, #FFFFFF 0%, #ADADAD 50%, #999999 75%, #8A8A8A 100%);
+}
+
+.container{
+	max-width: 100%; /* 960px */
+	overflow: hidden;
+	margin: 0% auto;
+	background-attachment: fixed;
+	padding: 1%; 
+}
+
+img{
+	max-width: 100%;
+}
+
+p{ 
+	font-size: 0.875em;	/* 14px */
+	font-weight: normal;
+}
+
+/*Header-------------------------------------------------------------------------------*/
+
+#headerimage{}
+
+#logo{
+	width: 25%; 
+	float: left;
+	clear: both;
+	padding-right: 75%;
+}
+.logo{  
+	width: 25%; 
+	margin: -2% 0.510204081633% 0% 0.510204081633%;
+	float: left;
+	clear: both;
+}
+
+
+h1{
+	font-family: 'Shojumaru', Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	color: #101010;
+	font-size: 2em;	
+	width: 130%;
+	margin: 0%; 
+	float: left;
+	clear: both;
+	text-shadow: 4px 4px 8px #686868; 
+}
+
+h2{
+	font-family: 'Telex', Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	color: #101010;
+	font-size: 1.5em; 
+	width: 100%;
+	float: left;
+	clear: both;
+	text-shadow: 4px 4px 8px #686868; 
+}
+/*Header end---------------------------------------------------------------------------*/
+
+/*Main Nav-----------------------------------------------------------------------------*/
+
+nav{
+	font-size: 1.125em;
+}
+
+.nav{
+	width: 100%;  
+	margin: 0 auto;
+	overflow: hidden;
+	background-color: #fff;
+	list-style-type: none;
+	padding: 0;
+	float: left;
+	clear: both;
+}
+
+.listnav{
+	width: 14.2857142857143%; 
+	background: #fff;
+	float: left;
+	clear: right;
+}
+
+a.hoverable{
+	text-decoration: none;
+	background: #fff;
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #5174d5;
+}
+
+a.hoverable:hover{
+	color: #fff;
+	background-color: #5174d5;
+}
+
+a:link{
+	color: #5174d5;
+}
+
+a:visited{
+	color: #a8a8a8;
+}
+
+a:hover{
+	color: #fff;
+}
+
+a:active{
+	color: #000;
+}
+/*Main Nav end-------------------------------------------------------------------------*/
+
+/*Gallery Links properties-------------------------------------------------------------*/
+.gallerylink:link{
+	border-color: #e3edff;
+}
+
+.gallerylink:visited{
+	border-color: #a8a8a8;
+}
+
+.gallerylink:hover{
+	border-color: #fff;
+}
+
+.gallerylink:active{
+	border-color: #000;
+}
+/*Gallery Links end--------------------------------------------------------------------*/
+
+
+strong
+{
+-web-font-weight: 700;
+}
+
+
+/*TABLE--------------------------------------------------------------------------------*/
+
+table{
+	border-collapse: collapse;
+	width: 80%;
+	margin: 0 auto;
+}
+
+th{
+	font-size: 1em;
+	line-height: 130%;
+	text-align: center;
+	color: #fff;
+	background-color: #5174d5;
+}
+
+th.th1{
+	border-top-left-radius: 10px;	
+	padding: 1%;
+	border-right: 2px solid #fff;
+}
+
+th.th2{
+	border-top-right-radius: 10px;	
+	padding: 1%;
+}
+
+td{
+	border-top: .5px solid #E5E6E6;
+	font-size: 0.75em;
+	line-height: 200%;
+	background-color: #fff;
+	color: #5174d5;
+	padding: 1%;
+	text-align: center;
+}
+
+td.td1{
+	border-right: 2px solid #5174d5;
+}
+
+td.td2{
+	border-right: 2px solid #5174d5;
+}
+
+td.td3{
+	border-right: 2px solid #5174d5;
+}
+
+td.td4{
+	border-right: 2px solid #5174d5;
+}
+
+td.td5{
+	border-right: 2px solid #5174d5;
+}
+
+td.td6{
+	border-right: 2px solid #5174d5;
+}
+
+td.td7{
+	border-right: 2px solid #5174d5;
+}
+
+td.td8{
+	border-bottom-left-radius: 10px;
+	border-right: 2px solid #5174d5;
+}
+
+td.td14{
+	border-bottom-right-radius: 10px;
+}
+
+/*TABLE end----------------------------------------------------------------------------*/
+
+/*FORM---------------------------------------------------------------------------------*/
+
+#contact us{
+	background-color: #484848;
+	margin: 0% -2%;
+	padding: 3% 0%;
+}
+
+form{
+	background: none;
+}
+
+input{
+	background: #e0e0e0;
+	margin: 0.5% 1%;
+}
+input:focus{
+	background-color: #5174d5;
+	border: 1px solid #fff;
+}
+
+#sign_up{
+	width: 100%;
+	margin: -12% 0% -2% 25%;
+	font-size: 1.125em;
+	color: #fff;
+	line-height: 100%;
+	text-align: left;
+	padding: 2% 3% 0% 3%;
+	background-color: #484848;
+	float: left;
+	clear: right;
+}
+
+fieldset{
+	border: none;
+	margin: 4% 0% 0% 0%;
+}
+
+label{
+	font-size: .8em;
+	color: #fff;
+	width: 25%;
+	float: left;
+	text-align: right;
+	clear: both;
+	margin: 0.5% 1%;
+	display: block;
+}
+
+textarea{
+	margin: 1.5% 1% .5% 1%;
+	background-color: #e0e0e0;
+}
+
+textarea:focus{
+	border: 2px solid #5174d5;
+}
+
+.hear{
+	margin-top: 10%;
+	margin-bottom: 1%;
+}
+
+#hear_us{
+	margin: -4% 1% 1% 1%;
+	width: 30%;
+	font-size: .8em;
+}
+
+#phonecall{
+	float: left;
+	clear: right;
+	max-width: 100%;
+	margin: 1% 2% 4% 28%;
+}
+
+.phonecall{
+	font-size: .75em;
+	color: #fff;
+}
+
+button{
+	width: 25%;
+	font-size: 1.125em;
+	background-color: #5174d5;
+	color: #fff;
+	margin-left: 28%;
+	margin-bottom: 10%;
+	padding: 1%;
+	border-radius: 5px;
+}
+
+.submit:hover{
+	text-decoration: underline;
+	color: #5174d5;
+	background-color: #fff;
+}
+/*FORM end-----------------------------------------------------------------------------*/
+
+
+
+/*FOOTER-------------------------------------------------------------------------------*/
+
+footer{
+	width: 100%;
+	line-height: 110%;
+	margin: 5% 3%;
+	padding: 2%;
+	float: left;
+	clear: both;
+}
+/*FOOTER end---------------------------------------------------------------------------*/
+
+
+/* =Media Queries
+=======================================================================================*/
+
+	/* Tablet Portrait size to standard 960 (devices and browsers)*/
+	@media screen and (min-width: 768px) and (max-width: 959px){
+	
+	
+	
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers)=================*/
+	@media only screen and (min-width: 480px) and (max-width: 767px){
+	
+	
+	
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers)============*/
+	@media only screen and (max-width: 479px){
+	
+	
+		
+	
+	
+	
+
+
+
