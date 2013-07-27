@@ -216,7 +216,6 @@ h1{
 	padding: 1%;
 	margin-top: -2%;
 	margin-left: -2%;
- 	background-color: #212121;
  }
 
 nav{
@@ -589,14 +588,14 @@ a#philosophybutton:active{
 /* END CONTACT US NAV BUTTON */
 /*Main Nav end-------------------------------------------------------------------------*/
 
-#mainheader{
+/*#mainheader{
 	font-family: 'Cabin', Helvetica, Arial, sans-serif;
 	font-size: 1.5em;
 	float: none;
 	padding-right: 5%;
 	margin: none;
 	border: none;
-}
+}*/
 
 #header{
 	margin: 0 auto;
@@ -604,7 +603,6 @@ a#philosophybutton:active{
 }
 
 #coachingphilosophy{
-	background: #212121;
 	margin: 0 auto;
 	padding: 3%;
 	width: 105%;
