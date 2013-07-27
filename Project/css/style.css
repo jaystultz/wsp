@@ -25,12 +25,44 @@ body{
 	background-repeat: no-repeat;
 }
 
+header{
+	background: #212121;
+}
+
 nav{
 	font-size: 1.125em;
 }
 
+nav li{
+	background-color: #212121;
+	display: inline;
+}
+
+h1{
+	font-family: 'Cabin', Helvetica, Arial, sans-serif;
+	float: none;
+	padding-left: 3%;
+	padding-bottom: 3%;
+	background-color: #212121;
+	padding: 5% 3% 3% 3%;
+	margin-top: 0%;
+	margin-bottom: -3%;
+	border-top: 3px solid #fff;
+}
+
+aside img{
+	margin: 5%;
+}
+
 footer{
 	margin: 10% 0% 5% 0%;
+}
+
+footer img {
+	/*outline: 2px solid #000;*/
+	max-width: 100%;
+	min-height: 100px;
+	margin-bottom: 5%;
 }
 
 #footer{
@@ -54,12 +86,6 @@ footer{
 	margin: 2% 1% 2% -1%;
 }
 
-footer img {
-	/*outline: 2px solid #000;*/
-	max-width: 100%;
-	min-height: 100px;
-	margin-bottom: 5%;
-}
 
 #contactinfo{
 	background-color: #212121;
@@ -99,9 +125,6 @@ a.email:active{
    
 /*====== Homepage Nav ======*/
 
-header{
-	background: #212121;
-}
 
 #headerimage{
 	float: none;
@@ -118,10 +141,6 @@ header{
 	border-top: 3px solid #fff;
 }
 
-nav li{
-	background-color: #212121;
-	display: inline;
-}
 
 .listnav{
 	width: 16.6666666666667%;
@@ -162,17 +181,6 @@ a:active{
 }
 /*====== Homepage Nav End ======*/
 
-h1{
-	font-family: 'Cabin', Helvetica, Arial, sans-serif;
-	float: none;
-	padding-left: 3%;
-	padding-bottom: 3%;
-	background-color: #212121;
-	padding: 5% 3% 3% 3%;
-	margin-top: 0%;
-	margin-bottom: -3%;
-	border-top: 3px solid #fff;
-}
 
 #welcome{
 	font-family: 'Telex', Helvetica, Arial, sans-serif;
@@ -619,9 +627,6 @@ a#philosophybutton:active{
    GALLERY
    ============================================*/	
    
-/*img{
-	margin: 5%;
-}*/
 
 
 /* =============================================================================
