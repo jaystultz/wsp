@@ -117,164 +117,7 @@ a:active{
 	background-color: #fff;
 }
 
-
-
-
-h1{
-	font-family: 'Cabin', Helvetica, Arial, sans-serif;
-	float: none;
-	padding-left: 3%;
-	padding-bottom: 3%;
-	background-color: #212121;
-	padding: 5% 3% 3% 3%;
-	margin-top: 0%;
-	margin-bottom: -3%;
-	border-top: 3px solid #fff;
-}
-
-h2{
-
-}
-
-h3{
-
-}
-
-h4{
-
-}
-
-a.email:hover{
-	color: #f8ec24;
-}
-
-a.email:link{
-	color: #999;
-}
-
-a.email:visited{
-	color: #fff;
-}
-
-a.email:hover{
-	color: #f8ec24;
-}
-
-a.email:active{
-	color: #fff;
-}
-
-
-/*============PUT IN GALLERY========
-aside img{
-	margin: 5%;
-}
-==================================*/
-footer{
-	margin: 10% 0% 5% 0%;
-}
-
-footer img {
-	/*outline: 2px solid #000;*/
-	max-width: 100%;
-	min-height: 100px;
-	margin-bottom: 5%;
-}
-
-#sponsorsfooter{
-	width: 110%;
-	overflow: hidden;
-	background-color: #fff;
-	margin: -5% 0% 10% -3%;
-	padding-bottom: 1%;
-}
-
-#footergallery{
-	margin: 2% 1% 2% -1%;
-}
-
-.footerlink{
-
-}
-
-#contactinfo{
-	background-color: #212121;
-	width: 110%;
-	margin: 5% 0% 5% -2%;
-	padding: 5% 0% 5% 3%;
-}
-
-#footer{
-	text-align: left;
-	margin-top: -3%;
-	margin-bottom: 0%;
-	font-family: 'Lato', Helvetica, Arial, sans-serif; /* 16px */
-	color: #fff;
-	padding: none;
-}
-
-/* =============================================================================
-   Page Styles
-   ========================================================================== */
-   
-/* =============================================
-   HOME
-   ============================================*/	
-
-#headerimage{
-	float: none;
-	padding: none;
-}
-
-#welcome{
-	font-family: 'Telex', Helvetica, Arial, sans-serif;
-	padding: 3%;
-	margin-bottom: -1%;
-	background-color: #212121;
-}
-
-#homecontent{
-	background-color: #212121;
-	width: 110%;
-	padding-left: 3%;
-}
-
-#signature{
-	text-align: left;
-	margin-top: 4%;
-	margin-bottom: 2%;
-	font-family: 'Lato', Helvetica, Arial, sans-serif; /* 16px */
-	color: #999;
-}
-
-#fbiconhome{
-	margin-left: 1%;
-}
-
-#emailiconhome{
-	margin-left: -3%;
-}
-
-#coachtrevor1{
-	margin: -3% 3% 5% 0%;
-	width: 24%;
-}
-
-/* =============================================
-   PHILOSOPHY
-   ============================================*/	
-#logo{
-	padding: 1%;
-	margin-top: -2%;
-	margin-left: -2%;
- }
-
-
-nav li{
-	display: inline;
-}
-
-
+/*====== PAGES NAVIGATION =========================*/
 /* HOME NAV BUTTON */
 #homebutton{
 	background: #999999; /* Old browsers */
@@ -476,7 +319,7 @@ a#philosophybutton:active{
 /* END COACHES NAV BUTTON */ 
 
 /* GALLERY NAV BUTTON */  
-  #gallerybutton{
+#gallerybutton{
 	background: #999999; /* Old browsers */
 	background: -moz-linear-gradient(top,  #999999 0%, #606060 50%, #404040 55%, #808080 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#999999), color-stop(50%,#606060), color-stop(55%,#404040), color-stop(100%,#808080)); /* Chrome,Safari4+ */
@@ -528,7 +371,7 @@ a#philosophybutton:active{
 
 /* CONTACT US NAV BUTTON */   
   
-  #contactusbutton{
+#contactusbutton{
 	background: #999999; /* Old browsers */
 	background: -moz-linear-gradient(top,  #999999 0%, #606060 50%, #404040 55%, #808080 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#999999), color-stop(50%,#606060), color-stop(55%,#404040), color-stop(100%,#808080)); /* Chrome,Safari4+ */
@@ -577,16 +420,165 @@ a#philosophybutton:active{
 }
 
 /* END CONTACT US NAV BUTTON */
-/*Main Nav end-------------------------------------------------------------------------*/
+/*====== END PAGES NAVIGATION =========================*/
 
-/*#mainheader{
+h1{
 	font-family: 'Cabin', Helvetica, Arial, sans-serif;
-	font-size: 1.5em;
 	float: none;
-	padding-right: 5%;
-	margin: none;
-	border: none;
-}*/
+	padding-left: 3%;
+	padding-bottom: 3%;
+	background-color: #212121;
+	padding: 5% 3% 3% 3%;
+	margin-top: 0%;
+	margin-bottom: -3%;
+	border-top: 3px solid #fff;
+}
+
+#motto{
+	font-family: 'Cabin', Helvetica, Arial, sans-serif;
+	float: none;
+	background: none;
+	padding:0;
+	margin: 0;
+	border-top: none;
+}
+
+h2{
+
+}
+
+h3{
+
+}
+
+h4{
+
+}
+
+a.email:hover{
+	color: #f8ec24;
+}
+
+a.email:link{
+	color: #999;
+}
+
+a.email:visited{
+	color: #fff;
+}
+
+a.email:hover{
+	color: #f8ec24;
+}
+
+a.email:active{
+	color: #fff;
+}
+
+/*============PUT IN GALLERY========
+aside img{
+	margin: 5%;
+}
+==================================*/
+footer{
+	margin: 10% 0% 5% 0%;
+}
+
+footer img {
+	/*outline: 2px solid #000;*/
+	max-width: 100%;
+	min-height: 100px;
+	margin-bottom: 5%;
+}
+
+#sponsorsfooter{
+	width: 110%;
+	overflow: hidden;
+	background-color: #fff;
+	margin: -5% 0% 10% -3%;
+	padding-bottom: 1%;
+}
+
+#footergallery{
+	margin: 2% 1% 2% -1%;
+}
+
+.footerlink{
+
+}
+
+#contactinfo{
+	background-color: #212121;
+	width: 110%;
+	margin: 5% 0% 5% -2%;
+	padding: 5% 0% 5% 3%;
+}
+
+#footer{
+	text-align: left;
+	margin-top: -3%;
+	margin-bottom: 0%;
+	font-family: 'Lato', Helvetica, Arial, sans-serif; /* 16px */
+	color: #fff;
+	padding: none;
+}
+
+/* =============================================================================
+   Page Styles
+   ========================================================================== */
+   
+/* =============================================
+   HOME
+   ============================================*/	
+
+#headerimage{
+	float: none;
+	padding: none;
+}
+
+#welcome{
+	font-family: 'Telex', Helvetica, Arial, sans-serif;
+	padding: 3%;
+	margin-bottom: -1%;
+	background-color: #212121;
+}
+
+#homecontent{
+	background-color: #212121;
+	width: 110%;
+	padding-left: 3%;
+}
+
+#signature{
+	text-align: left;
+	margin-top: 4%;
+	margin-bottom: 2%;
+	font-family: 'Lato', Helvetica, Arial, sans-serif; /* 16px */
+	color: #999;
+}
+
+#fbiconhome{
+	margin-left: 1%;
+}
+
+#emailiconhome{
+	margin-left: -3%;
+}
+
+#coachtrevor1{
+	margin: -3% 3% 5% 0%;
+	width: 24%;
+}
+
+/* =============================================
+   PHILOSOPHY
+   ============================================*/	
+
+#logo{
+	padding: 1%;
+	margin-top: -2%;
+	margin-left: -2%;
+ }
 
 #header{
 	margin: 0 auto;
@@ -607,11 +599,62 @@ a#philosophybutton:active{
 }
 
 /* =============================================
-   GALLERY
+   PACKAGES
    ============================================*/	
    
+#plans{
 
+}
+   
+table{
+	border-collapse: collapse;
+	float: left;
+	clear: right;
+	width: 37%;
+	margin: 1% 1% 5% 1%;
+}
 
+th{
+	font-size: 1.1em;
+	line-height: 150%;
+	text-align: center;
+	color: #fff;
+	background-color: #5174d5;
+}
+
+th.th1{
+	border-top-left-radius: 10px;	
+	padding: 5%;
+}
+
+th.th2{
+	border-top-right-radius: 10px;	
+	padding: 5%;
+}
+
+td{
+	border: none;
+	font-size: 0.75em;
+	line-height: 120%;
+	background-color: #fff;
+	color: #5174d5;
+	padding: 4%;
+	text-align: center;
+}
+
+td.td3{
+	border-bottom-left-radius: 10px;
+
+}
+td.td4{
+	background: none;
+}
+
+td.td5{
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+
+}
 /* =============================================================================
    Media Queries
    ========================================================================== */
