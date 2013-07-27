@@ -425,6 +425,7 @@ a#philosophybutton:active{
 
 h1{
 	font-family: 'Cabin', Helvetica, Arial, sans-serif;
+	font-style: italic;
 	float: none;
 	padding-left: 3%;
 	padding-bottom: 3%;
@@ -437,6 +438,7 @@ h1{
 
 #motto{
 	font-family: 'Cabin', Helvetica, Arial, sans-serif;
+	font-style: italic;
 	float: none;
 	background: none;
 	padding:0;
@@ -551,6 +553,7 @@ footer img {
 	margin-bottom: 2%;
 	font-family: 'Lato', Helvetica, Arial, sans-serif; /* 16px */
 	color: #999;
+	font-style: italic;
 }
 
 #fbiconhome{
@@ -562,7 +565,7 @@ footer img {
 }
 
 #coachtrevor1{
-	margin: -3% 3% 5% 0%;
+	margin: -4% 3% 5% 0%;
 	width: 24%;
 }
 
