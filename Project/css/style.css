@@ -423,27 +423,6 @@ a#philosophybutton:active{
 /* END CONTACT US NAV BUTTON */
 /*====== END PAGES NAVIGATION =========================*/
 
-h1{
-	font-family: 'Cabin', Helvetica, Arial, sans-serif;
-	font-style: italic;
-	float: none;
-	background-color: #212121;
-	padding: 5% 3% 3% 3%;
-	margin-top: 0%;
-	margin-bottom: -3%;
-	border-top: 3px solid #fff;
-}
-
-#motto{
-	font-family: 'Cabin', Helvetica, Arial, sans-serif;
-	font-style: italic;
-	float: none;
-	background: none;
-	padding:0;
-	margin: 0;
-	border-top: none;
-}
-
 h2{
 
 }
@@ -532,6 +511,17 @@ footer img {
 	padding: none;
 }
 
+h1{
+	font-family: 'Cabin', Helvetica, Arial, sans-serif;
+	font-style: italic;
+	float: none;
+	background-color: #212121;
+	padding: 5% 3% 3% 3%;
+	margin-top: 0%;
+	margin-bottom: -3%;
+	border-top: 3px solid #fff;
+}
+
 #welcome{
 	font-family: 'Telex', Helvetica, Arial, sans-serif;
 	padding: 3%;
@@ -555,11 +545,12 @@ footer img {
 }
 
 #iconshome{
-	margin-left: -7%;
+	margin-left: -6%;
+	margin-bottom: 5%;
 }
 #fbiconhome{
-	margin-left: 0.5%;
 	padding: 1%;
+	margin-bottom: 3%;
 }
 
 #emailiconhome{
@@ -588,11 +579,29 @@ footer img {
 	padding: 2%;
 }
 
+#motto{
+	font-family: 'Cabin', Helvetica, Arial, sans-serif;
+	font-style: italic;
+	float: none;
+	background: none;
+	padding: 0;
+	margin-left: 1%;
+	border: none;
+	/*outline: solid 1px #fff;*/
+}
+
+#coachingphilosophy{
+	margin: 6% 0% 0% 1%;
+	/*outline: solid 1px #fff;*/
+}
+
 #coachingarticle{
 	background: #212121;
 	padding-left: 3%;
-	padding-right: 20%;
+	padding-right: 17%;
 	margin-left: 0%;
+	margin-top: -1%;
+	/*outline: solid 1px #fff;*/
 }
 
 /* =============================================
@@ -600,57 +609,106 @@ footer img {
    ============================================*/	
    
 #plans{
-
+	margin: 6% 0% 0% 1%;
 }
    
 table{
+	background: #212121;
 	border-collapse: collapse;
-	float: left;
-	clear: right;
-	width: 37%;
-	margin: 1% 1% 5% 1%;
+	width: 80%;
+	margin: 0 auto;
+	padding: 0 2%;
+}
+
+#table{
+	background: #212121;
+	margin: 0 auto;
+	padding-right: 5%;
+	padding-top: 1%;
+	padding-bottom: 5%;
 }
 
 th{
-	font-size: 1.1em;
-	line-height: 150%;
+	font-size: 1.25em;
+	line-height: 130%;
 	text-align: center;
-	color: #fff;
-	background-color: #5174d5;
+	color: #f8ec24;
+	background-color: #585858;
+	border-bottom: solid 2px #212121;
 }
 
 th.th1{
 	border-top-left-radius: 10px;	
-	padding: 5%;
+	padding: 3%;
 }
 
 th.th2{
 	border-top-right-radius: 10px;	
-	padding: 5%;
+	padding: 3%;
 }
 
 td{
 	border: none;
-	font-size: 0.75em;
+	font-size: 1.125em;
 	line-height: 120%;
-	background-color: #fff;
-	color: #5174d5;
-	padding: 4%;
+	background-color: #999;
+	color: #212121;
+	padding: 3%;
 	text-align: center;
 }
 
-td.td3{
-	border-bottom-left-radius: 10px;
-
+td.td1{
+	border-right: solid 2px #212121;
 }
+
+td.td2{
+	border-right: solid 2px #212121;
+}
+
+td.td3{
+	border-right: solid 2px #212121;
+}
+
 td.td4{
-	background: none;
+	border-right: solid 2px #212121;
 }
 
 td.td5{
+	border-right: solid 2px #212121;
+}
+
+td.td6{
+	border-right: solid 2px #212121;
+}
+
+td.td7{
+	border-right: solid 2px #212121;
+}
+
+td.td8{
+	border-right: solid 2px #212121;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+td.td12{
 	border-bottom-right-radius: 10px;
 	border-bottom-left-radius: 10px;
+}
+td.td13{
+	background: none;
+}
 
+td.td14{
+	background: none;
+}
+
+td.td15{
+	background: none;
+}
+
+td.td16{
+	background: none;
 }
 
 /* =============================================
