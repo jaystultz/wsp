@@ -1001,6 +1001,30 @@ td{
 	margin-top: 2%;
 	font-size: 1em;
 }
+
+/* =============================================
+   GALLERY
+   ============================================*/
+#galleryheading{
+	font-size: 1.25em;
+	padding-top: 5%;
+	width: 100%;
+	margin-top: 1%;
+	/*outline: solid 1px #fff;*/
+}   
+
+aside{
+	background: #212121;
+	padding-right: 3%;
+}
+aside img{
+	width: 50%;
+	margin: 1% 25% 10% 25%;
+	border: 2px solid #f3ec24;
+}
+
+
+
 }
 /* Mobile Portrait Size to Mobile Landscape Size */
 @media only screen and (max-width: 479px) {}
