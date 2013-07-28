@@ -700,7 +700,7 @@ td.td16{
 }   
 
 #trevor{
-	margin: 2% 0% -1% 2%;
+	margin: 1% 0% -1% 2%;
 	font-size: 1.25em;
 }  
 
@@ -805,12 +805,19 @@ td.td16{
 /* =============================================
    GALLERY
    ============================================*/
+#galleryheading{
+	margin: 6% 0% 0% 1%;
+}   
+
+aside{
+	background: #212121;
+	padding-right: 3%;
+}
 aside img{
-	margin: 5%;
+	margin: -1% 5% 10% 5%;
+	border: 2px solid #f3ec24;
 }
 
-   
-   
    
 /* =============================================
    CONTACT US
