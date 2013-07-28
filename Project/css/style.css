@@ -409,6 +409,13 @@ a#philosophybutton:active{
 }
 
 /* END CONTACT US NAV BUTTON */
+
+
+#nav li a:active{
+       color: #ffffff;
+       background:#f1d74c;
+    }
+
 /*====== END PAGES NAVIGATION =========================*/
 
 h2{
