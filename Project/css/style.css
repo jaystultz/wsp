@@ -125,6 +125,14 @@ a:active{
 	background-color: #fff;
 }
 
+body#philosophy a#philosophy,
+body#products a#prodnav,
+body#faq a#faqnav,
+body#contact a#connav {
+	color: #eee;
+	background: #930;
+}
+
 
 h2{
 
