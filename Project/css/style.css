@@ -1199,7 +1199,7 @@ h1{
 	background: #212121;
 	margin-top: 7%;
 	margin-left: 5%;
-	margin-bottom: 10%;
+	margin-bottom: 3%;
 	padding-bottom: 7%;
 	border-top: none;
 	/*outline: solid 1px #fff;*/
@@ -1208,10 +1208,14 @@ h1{
 #welcome{
 	margin-left: 0%;
 	margin-top: -3%;
-	font-size: 1.25em;
-	padding-left: 5%;
+	font-size: 1em;
+	padding-left: 6%;
 	padding-right: 9%;
 	/*outline: solid 1px;*/
+}
+
+#homecontent{
+	padding-left: 6%;
 }
 
 #signature{
@@ -1220,16 +1224,20 @@ h1{
 
 #iconshome{
 	margin: 0;	
+	padding-left: 20%;
 }
 
 #fbiconhome{
 	width: 25%;
-	margin-left: -20%;
+	margin-left: 0%;
+	padding: 1%;
 }
 
 #emailiconhome{
 	width: 25%;
+	padding: 1%;
 }
+
 #coachtrevor1{
 	display: none;
 }
