@@ -48,7 +48,7 @@ nav li{
 	margin-bottom: 0%;
 	list-style-type: none;
 	padding: 0;
-	border-top: 3px solid #F3EC24;
+	border-top: 3px solid #fff;
 }
 
 .listnav{
@@ -238,7 +238,7 @@ h1{
 	padding: 5% 3% 3% 3%;
 	margin-top: 0%;
 	margin-bottom: -3%;
-	border-top: 3px solid #F3EC24;
+	border-top: 3px solid #fff;
 }
 
 #welcome{
