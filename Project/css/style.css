@@ -667,7 +667,12 @@ button:hover{
 @media only screen and (min-width: 768px) and (max-width: 995px) {}
 
 /* All Mobile Sizes */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) {}
+
+
+/* Mobile Landscape Size to Tablet Portrait */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
 /* =============================================================================
    Site Styles
    ========================================================================== */
@@ -723,7 +728,7 @@ footer{
 }
 
 footer img {
-	outline: 2px solid #000;
+	/*outline: 2px solid #000;*/
 	max-width: 100%;
 	min-height: 100px;
 	margin-bottom: 5%;
@@ -1057,18 +1062,384 @@ button{
 	margin-left: 0%;
 }
 
+}
+
+
+
+/* Mobile Portrait Size to Mobile Landscape Size */
+@media only screen and (max-width: 479px) {
+
+/* =============================================================================
+   Site Styles
+   ========================================================================== */
+#logo{
+	max-width: 100%;
+	padding: 0%;
+	margin-left: 5%; 
+	/*outline: 1px solid #fff;*/
+}
+
+#header{
+	margin: 0 auto;
+	padding: 2%;
+}
+
+#nav{
+	/*outline: 2px solid #fff;*/
+	background: none;
+}
+
+.hoverable{
+	width: 114%;
+	margin: 0 auto;
+}
+
+a.hoverable{
+	height: 50px;
+	line-height: 50px;
+	font-size: 1.25em;
+ 	border: 1px solid #999;
+  	border-right: 1px solid #999;
+  	border-bottom: 1px solid #999;
+  	border-top: 1px solid #212121;
+  	/*outline: 1px solid #fff;*/
+}
+
+.navlist{
+	float: none;
+	clear: none;
+	/*outline: 2px solid #fff;*/
 
 }
 
-/* Mobile Landscape Size to Tablet Portrait */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+#motto{
+	font-family: 'Cabin', Helvetica, Arial, sans-serif;
+	font-style: italic;
+	font-size: 1.25em;
+	float: none;
+	background: none;
+	padding: 0;
+	margin-left: 5%;
+	margin-bottom: 10%;
+	border: none;
+	/*outline: solid 1px #fff;*/
+}
+   
+footer{
+	margin: 10% 0% 5% 0%;
+}
+
+footer img {
+	/*outline: 2px solid #000;*/
+}
+
+#sponsorsfooter{
+	width: 100%;
+	margin: -5% 0% 10% -15%;
+	padding-right: 25%;
+}
+
+#contactinfo{
+	width: 110%;
+	margin: 5% 0% 5% -8%;
+	padding: 5% 5% 5% 5%;
+}
+
+#footer{
+	margin-top: -10%;
+	margin-bottom: 10%;
+	font-size: .75em
+}
+   
+   
+
+/* =============================================
+   HOME
+   ============================================*/	
+
+.nav{
+	font-size: 1em;
+	width: 110%;
+	margin: 0 auto;
+	list-style-type: none;
+	padding: 0;
+	border-top: none;
+}
+
+#headerimage{
+	float: none;
+	padding: 0%;
+	width: 110%;
+}
+
+h1{
+	font-size: 1.5em;
+	line-height: 130%;
+	float: none;
+	border-top: none;
+	margin-bottom: -1%;
+}
+
+#welcome{
+	font-size: 1.25em;
+	padding-top: 5%;
+	width: 100%;
+	margin-top: 1%;
+}
+
+#signature{
+	font-size: 1em;
+}
+
+#iconshome{
+	margin: 0;	
+}
+
+#fbiconhome{
+	width: 25%;
+	margin-left: -20%;
+}
+
+#emailiconhome{
+	width: 25%;
+}
+#coachtrevor1{
+	display: none;
+}
 
 
+/* =============================================
+   PHILOSOPHY
+   ============================================*/	
 
-======================================/* Mobile Portrait Size to Mobile Landscape Size */
-@media only screen and (max-width: 479px)==============================================
 
-{
+#coachingphilosophy{
+	margin-left: 5%;
+	font-size: 1.25em;
+	/*outline: solid 1px #fff;*/
+}
+
+#coachingarticle{
+	background: #212121;
+	padding-left: 8%;
+	padding-right: 17%;
+	margin-left: 0%;
+	margin-top: -1%;
+	/*outline: solid 1px #fff;*/
+}
+
+/* =============================================
+   PACKAGES
+   ============================================*/	
+   
+#plans{
+	font-size: 1.25em;
+	padding-top: 5%;
+	width: 100%;
+	margin-top: 1%;
+	/*outline: solid 1px #fff;*/
+}
+
+table{
+	width: 90%;
+	margin: 0 auto;
+}
+
+th{
+	font-size: 1.125em;
+}
+
+td{
+	font-size: .9em;
+}
+
+/* =============================================
+   COACHES
+   ============================================*/
+#meetcoaches{
+	font-size: 1.25em;
+	padding-top: 5%;
+	width: 100%;
+	margin-top: 1%;
+	/*outline: solid 1px #fff;*/
+}   
+
+#trevor{
+	margin: 4% 0% -1% 0%;
+	font-size: 1.125em;
+	/*outline: solid 1px #fff;*/
+}  
+
+#trevbike{
+	margin-left: 0%;
+	margin-top: 4%;
+} 
+
+#trevbio{
+	margin: -2% 2% 1% 0%;
+}
+
+#trevhighlights{
+	margin-left: 0%;
+	margin-top: 2%;
+	font-size: 1em;
+}
+
+.trevor{
+	margin-left: 3%;
+	margin-top: -1%;
+	font-size: .9em;
+	line-height: 180%;
+}
+
+#trevcredentials{
+	margin-left: 0%;
+	margin-top: 2%;
+	font-size: 1em;
+}
+
+#trevsponsorships{
+	margin-left: 0%;
+	margin-top: 2%;
+	font-size: 1em;
+}
+
+#joe{
+	margin: 4% 0% -1% 0%;
+	font-size: 1.125em;
+	/*outline: solid 1px #fff;*/
+}  
+
+#joeprofile{
+	margin-left: 0%;
+	margin-top: 4%;
+} 
+
+#joebio{
+	margin: -2% 2% 1% 0%;
+}
+
+.joe{
+	margin-left: 3%;
+	margin-top: -1%;
+	font-size: .9em;
+	line-height: 180%;
+}
+
+#joehighlights{
+	margin-left: 0%;
+	margin-top: 2%;
+	font-size: 1em;
+}
+
+#joecredentials{
+	margin-left: 0%;
+	margin-top: 2%;
+	font-size: 1em;
+}
+
+#coachdave{
+	padding: 6%;
+	margin-left: -6%;
+	/*outline: 1px solid #fff;*/
+}
+#dave{
+	margin: 4% 0% -1% 0%;
+	font-size: 1.125em;
+	/*outline: solid 1px #fff;*/
+}  
+
+#davebike{
+	margin-left: 0%;
+	margin-top: 4%;
+} 
+
+#davebio{
+	margin: -2% 2% 1% 0%;
+}
+
+.dave{
+	margin-left: 3%;
+	margin-top: -1%;
+	font-size: .9em;
+	line-height: 180%;
+}
+
+#davehighlights{
+	margin-left: 0%;
+	margin-top: 2%;
+	font-size: 1em;
+}
+
+#davecredentials{
+	margin-left: 0%;
+	margin-top: 2%;
+	font-size: 1em;
+}
+
+#davesponsorships{
+	margin-left: 0%;
+	margin-top: 2%;
+	font-size: 1em;
+}
+
+/* =============================================
+   GALLERY
+   ============================================*/
+#galleryheading{
+	font-size: 1.25em;
+	padding-top: 5%;
+	width: 100%;
+	margin-top: 1%;
+	/*outline: solid 1px #fff;*/
+}   
+
+aside{
+	background: #212121;
+	padding-right: 3%;
+}
+aside img{
+	width: 50%;
+	margin: 1% 25% 10% 25%;
+	border: 2px solid #f3ec24;
+}
+
+/* =============================================
+   CONTACT US
+   ============================================*/
+   
+#us{
+	font-size: 1.25em;
+	padding-top: 5%;
+	width: 100%;
+	margin-top: 1%;
+	/*outline: solid 1px #fff;*/
+}   
+
+#contact{
+	padding-right: 6%; 
+}
+
+label{
+	text-align: left;
+}
+
+textarea{
+	margin: 1% 1% .5% 0%;
+}
+
+#hear_us{
+	margin: 1% 1% 5% 0%;
+	width: 50%;
+}
+
+button{
+	width: 30%;
+	margin-left: 0%;
+}
+
+
 }
 
 
