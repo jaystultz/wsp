@@ -81,9 +81,16 @@ nav li{
 	width: 16.6666666666667%;
 	float: left;
 	clear: right;
-	
 }
 
+current{
+  	color: #f3ec24;
+  	background-color: none;
+  	text-shadow: none;
+  	cursor: default;
+}
+  
+  
 a.hoverable{
 	display: block;
 	height: 40px;
