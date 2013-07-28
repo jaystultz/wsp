@@ -822,6 +822,85 @@ aside img{
 /* =============================================
    CONTACT US
    ============================================*/
+   
+#us{
+	margin: 6% 0% 0% 1%;
+}   
+
+#contact{
+	background-color: #212121;
+	padding: 0% 3%; 
+}
+
+form{
+	background: none;
+}
+
+input{
+	background: #fff;
+	margin: 0.5% 1%;
+}
+input:focus{
+	border: 2px solid #f3ec24;
+}
+
+fieldset{
+	border: none;
+	margin: 4% 0% 0% 0%;
+}
+
+label{
+	font-size: 1em;
+	color: #fff;
+	text-align: right;
+	clear: both;
+	margin: 0.5% 1%;
+	display: block;
+}
+
+textarea{
+	margin: 1% 1% .5% 1%;
+	background-color: #e0e0e0;
+}
+
+textarea:focus{
+	border: 2px solid #f3ec24;
+}
+
+.hear{
+	margin-bottom: 3%;
+}
+
+#hear_us{
+	margin: 1% 1% 5% 1%;
+	width: 25%;
+	font-size: 1em;
+}
+
+button{
+	width: 10%;
+	font-size: 1.125em;
+	margin-left: 17%;
+	margin-bottom: 10%;
+	padding: 1%;
+	border-radius: 5px;
+	color: #f8ec24;
+    background-color: #999999;
+	background: #999999; /* Old browsers */
+	background: -moz-linear-gradient(top,  #999999 0%, #909090 49%, #808080 51%, #999999 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#999999), color-stop(49%,#909090), color-stop(51%,#808080), color-stop(100%,#999999)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #999999 0%,#909090 49%,#808080 51%,#999999 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #999999 0%,#909090 49%,#808080 51%,#999999 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #999999 0%,#909090 49%,#808080 51%,#999999 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #999999 0%,#909090 49%,#808080 51%,#999999 100%); /* W3C */
+
+}
+
+.submit:hover{
+	text-decoration: underline;
+	color: #5174d5;
+	background-color: #fff;
+}
 
 
 
