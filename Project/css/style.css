@@ -616,14 +616,13 @@ table{
 	background: #212121;
 	border-collapse: collapse;
 	width: 80%;
-	margin-left: 13%;
+	margin: 0 10%;
 	padding: 0%;
 }
 
 #table{
 	background: #212121;
-	width: 100%
-	margin: 0;
+	width: 100%;
 	padding-right: 5%;
 	padding-top: 1%;
 	padding-bottom: 5%;
@@ -715,9 +714,13 @@ td.td16{
 /* =============================================
    COACHES
    ============================================*/
-   
-   
-   
+#meetcoaches{
+	margin: 6% 0% 0% 1%;
+}   
+
+#trevor{
+	margin: 6% 0% 0% 1%;
+}   
    
 /* =============================================
    GALLERY
