@@ -664,7 +664,22 @@ button:hover{
    ========================================================================== */
 
 /* Tablet Portrait size to Base 996px */
-@media only screen and (min-width: 768px) and (max-width: 995px) {}
+@media only screen and (min-width: 768px) and (max-width: 995px) {
+
+#motto{
+	font-size: 1.6em;
+	margin-left: 1%;
+	margin-bottom: 10%;
+	/*outline: solid 1px #fff;*/
+}
+
+h1{
+	font-size: 1.6em;
+	line-height: 130%;
+	float: none;
+	margin-bottom: -3%;
+}
+}
 
 /* All Mobile Sizes */
 @media only screen and (max-width: 767px) {}
@@ -719,7 +734,6 @@ a.hoverable{
 	background: none;
 	padding: 0;
 	margin-left: 1%;
-	border: none;
 	/*outline: solid 1px #fff;*/
 }
    
@@ -1072,6 +1086,7 @@ button{
 /* =============================================================================
    Site Styles
    ========================================================================== */
+
 #logo{
 	max-width: 100%;
 	padding: 0%;
@@ -1112,6 +1127,11 @@ a.hoverable{
 
 }
 
+.listnav{
+	float: none;
+	clear: none;
+	/*outline: 2px solid #fff;*/
+}
 
 #motto{
 	font-family: 'Cabin', Helvetica, Arial, sans-serif;
@@ -1160,7 +1180,7 @@ footer img {
 
 .nav{
 	font-size: 1em;
-	width: 110%;
+	width: 100.5%;
 	margin: 0 auto;
 	list-style-type: none;
 	padding: 0;
@@ -1174,18 +1194,24 @@ footer img {
 }
 
 h1{
-	font-size: 1.5em;
-	line-height: 130%;
+	font-size: 1.25em;
 	float: none;
+	background: #212121;
+	margin-top: 7%;
+	margin-left: 5%;
+	margin-bottom: 10%;
+	padding-bottom: 7%;
 	border-top: none;
-	margin-bottom: -1%;
+	/*outline: solid 1px #fff;*/
 }
 
 #welcome{
+	margin-left: 0%;
+	margin-top: -3%;
 	font-size: 1.25em;
-	padding-top: 5%;
-	width: 100%;
-	margin-top: 1%;
+	padding-left: 5%;
+	padding-right: 9%;
+	/*outline: solid 1px;*/
 }
 
 #signature{
@@ -1382,10 +1408,8 @@ td{
    GALLERY
    ============================================*/
 #galleryheading{
+	margin-left: 5%;
 	font-size: 1.25em;
-	padding-top: 5%;
-	width: 100%;
-	margin-top: 1%;
 	/*outline: solid 1px #fff;*/
 }   
 
@@ -1404,22 +1428,25 @@ aside img{
    ============================================*/
    
 #us{
+	margin-left: 5%;
 	font-size: 1.25em;
-	padding-top: 5%;
-	width: 100%;
-	margin-top: 1%;
 	/*outline: solid 1px #fff;*/
 }   
 
 #contact{
-	padding-right: 6%; 
+	width: 100%;
+	padding-right: 4%;
+	padding-left: 4%;
+	/*outline: 1px solid 	#fff;*/
 }
 
 label{
 	text-align: left;
+	margin-left: 2%;
 }
 
 textarea{
+	width: 90%;
 	margin: 1% 1% .5% 0%;
 }
 
