@@ -17,6 +17,14 @@ body{
 	background-color: #585858;
 }
 
+body.about #nav #about,
+body.contact #nav #contact,
+body.home #nav #home
+{
+  /* Add your active styles here */
+  color: #cc0000;
+  font-weight: bold;
+  }
 .container{
 	overflow: hidden;
 	background-color: #212121;
@@ -31,11 +39,13 @@ header{
 
 nav{
 	font-size: 1em;
+	
 }
 
 nav li{
 	background-color: #212121;
 	display: inline;
+	
 }
 
 .nav{
@@ -53,6 +63,7 @@ nav li{
 	width: 16.6666666666667%;
 	float: left;
 	clear: right;
+	
 }
 
 #nav{
@@ -72,17 +83,14 @@ nav li{
 	background: -o-linear-gradient(left,  #212121 0%,#fdf021 100%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(left,  #212121 0%,#fdf021 100%); /* IE10+ */
 	background: linear-gradient(to right,  #212121 0%,#fdf021 100%); /* W3C */
+	
 }
 
 .navlist{
 	width: 16.6666666666667%;
 	float: left;
 	clear: right;
-}
-
-#navcontainer ul li a:hover {
-	color: #930;
-	background: #f5d7b4;
+	
 }
 
 a.hoverable{
@@ -92,7 +100,26 @@ a.hoverable{
 	height: 40px;
 	line-height: 40px;
 	text-align: center;
-	color: #fff;
+	background: #999999; /* Old browsers */
+	background: -moz-linear-gradient(top,  #999999 0%, #606060 50%, #404040 55%, #808080 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#999999), color-stop(50%,#606060), color-stop(55%,#404040), color-stop(100%,#808080)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #999999 0%,#606060 50%,#404040 55%,#808080 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #999999 0%,#606060 50%,#404040 55%,#808080 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #999999 0%,#606060 50%,#404040 55%,#808080 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #999999 0%,#606060 50%,#404040 55%,#808080 100%); /* W3C */
+  	border: 1px solid #999;
+  	border-right: 1px solid #202020;
+  	border-bottom: 1px solid #202020;
+  	border-radius: 3px;
+  	-webkit-box-shadow: inset 0 1px 0 0 #909090;
+  	box-shadow: inset 0 1px 0 0 #909090;
+  	color: #fff;
+  	padding: 0;
+  	text-decoration: none;
+  	text-align: center;
+  	text-shadow: 0 -1px 1px #212121;
+}
+
 }
 
 a.hoverable:hover{
@@ -120,11 +147,6 @@ a:hover{
 a:active{
 	color: #000;
 	background-color: #fff;
-}
-
-body#philosophy a#philosophy{
-	color: #fff;
-	background: none;
 }
 
 
