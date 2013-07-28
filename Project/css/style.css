@@ -711,7 +711,6 @@ td.td16{
 
 #trevbio{
 	margin: -2% 2% 1% 4%;
-	/*outline: 1px solid #fff;*/
 }
 
 #trevhighlights{
@@ -719,7 +718,6 @@ td.td16{
 	margin-left: 2%;
 	margin-bottom: 0%;
 	font-size: 1.25em;
-	/*outline: 1px solid #fff;*/
 }
 
 #trevcredentials{
@@ -730,6 +728,74 @@ td.td16{
 }
 
 #trevsponsorships{
+	margin-top: 2%;
+	margin-left: 2%;
+	margin-bottom: 0%;
+	font-size: 1.25em;
+}
+
+#joe{
+	margin: 8% 0% -1% 2%;
+	font-size: 1.25em;
+}  
+
+#joeprofile{
+	margin-left: 2%;
+	margin-top: 8%;
+} 
+
+#joebio{
+	margin: -2% 2% 1% 4%;
+}
+
+#joehighlights{
+	margin-top: -1%;
+	margin-left: 2%;
+	margin-bottom: 0%;
+	font-size: 1.25em;
+}
+
+#joecredentials{
+	margin-top: 2%;
+	margin-left: 2%;
+	margin-bottom: 0%;
+	font-size: 1.25em;
+}
+
+#coachdave{
+	background: #212121;
+	padding: 2%;
+	margin-left: -2%;
+}
+#dave{
+	margin: 8% 0% -1% 2%;
+	font-size: 1.25em;
+}  
+
+#davebike{
+	margin-left: 2%;
+	margin-top: 10%;
+} 
+
+#davebio{
+	margin: -2% 2% 1% 4%;
+}
+
+#davehighlights{
+	margin-top: -1%;
+	margin-left: 2%;
+	margin-bottom: 0%;
+	font-size: 1.25em;
+}
+
+#davecredentials{
+	margin-top: 2%;
+	margin-left: 2%;
+	margin-bottom: 0%;
+	font-size: 1.25em;
+}
+
+#davesponsorships{
 	margin-top: 2%;
 	margin-left: 2%;
 	margin-bottom: 0%;
