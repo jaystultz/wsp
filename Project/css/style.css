@@ -328,6 +328,10 @@ h1{
 	/*outline: solid 1px #fff;*/
 }
 
+#signature{
+	padding-bottom: 5%;
+}
+
 /* =============================================
    PACKAGES
    ============================================*/	
@@ -1134,15 +1138,7 @@ a.hoverable{
 }
 
 #motto{
-	font-family: 'Cabin', Helvetica, Arial, sans-serif;
-	font-style: italic;
-	font-size: 1.25em;
-	float: none;
-	background: none;
-	padding: 0;
-	margin-left: 5%;
-	margin-bottom: 10%;
-	border: none;
+	display: none;
 	/*outline: solid 1px #fff;*/
 }
    
