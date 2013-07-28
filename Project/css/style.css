@@ -1023,6 +1023,39 @@ aside img{
 	border: 2px solid #f3ec24;
 }
 
+/* =============================================
+   CONTACT US
+   ============================================*/
+   
+#us{
+	font-size: 1.25em;
+	padding-top: 5%;
+	width: 100%;
+	margin-top: 1%;
+	/*outline: solid 1px #fff;*/
+}   
+
+#contact{
+	padding-right: 6%; 
+}
+
+label{
+	text-align: left;
+}
+
+textarea{
+	margin: 1% 1% .5% 0%;
+}
+
+#hear_us{
+	margin: 1% 1% 5% 0%;
+	width: 50%;
+}
+
+button{
+	width: 30%;
+	margin-left: 0%;
+}
 
 
 }
