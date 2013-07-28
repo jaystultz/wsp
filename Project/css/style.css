@@ -17,14 +17,6 @@ body{
 	background-color: #585858;
 }
 
-body.about #nav #about,
-body.contact #nav #contact,
-body.home #nav #home
-{
-  /* Add your active styles here */
-  color: #cc0000;
-  font-weight: bold;
-  }
 .container{
 	overflow: hidden;
 	background-color: #212121;
@@ -88,6 +80,11 @@ nav li{
 	clear: right;
 }
 
+#navcontainer ul li a:hover {
+	color: #930;
+	background: #f5d7b4;
+}
+
 a.hoverable{
 	text-decoration: none;
 	background: #212121;
@@ -125,12 +122,9 @@ a:active{
 	background-color: #fff;
 }
 
-body#philosophy a#philosophy,
-body#products a#prodnav,
-body#faq a#faqnav,
-body#contact a#connav {
-	color: #eee;
-	background: #930;
+body#philosophy a#philosophy{
+	color: #fff;
+	background: none;
 }
 
 
