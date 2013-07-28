@@ -1221,11 +1221,9 @@ h1{
 }
 
 #coachingarticle{
-	background: #212121;
 	padding-left: 8%;
 	padding-right: 17%;
 	margin-left: 0%;
-	margin-top: -1%;
 	/*outline: solid 1px #fff;*/
 }
 
@@ -1234,10 +1232,8 @@ h1{
    ============================================*/	
    
 #plans{
+	margin-left: 5%;
 	font-size: 1.25em;
-	padding-top: 5%;
-	width: 100%;
-	margin-top: 1%;
 	/*outline: solid 1px #fff;*/
 }
 
@@ -1247,21 +1243,19 @@ table{
 }
 
 th{
-	font-size: 1.125em;
+	font-size: 1em;
 }
 
 td{
-	font-size: .9em;
+	font-size: .8em;
 }
 
 /* =============================================
    COACHES
    ============================================*/
 #meetcoaches{
+	margin-left: 5%;
 	font-size: 1.25em;
-	padding-top: 5%;
-	width: 100%;
-	margin-top: 1%;
 	/*outline: solid 1px #fff;*/
 }   
 
@@ -1340,8 +1334,8 @@ td{
 }
 
 #coachdave{
-	padding: 6%;
-	margin-left: -6%;
+	padding: 8%;
+	margin-left: -8%;
 	/*outline: 1px solid #fff;*/
 }
 #dave{
