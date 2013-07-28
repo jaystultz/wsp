@@ -17,6 +17,14 @@ body{
 	background-color: #585858;
 }
 
+body.about #nav #about,
+body.contact #nav #contact,
+body.home #nav #home
+{
+  /* Add your active styles here */
+  color: #cc0000;
+  font-weight: bold;
+  }
 .container{
 	overflow: hidden;
 	background-color: #212121;
@@ -41,7 +49,7 @@ nav li{
 .nav{
 	font-size: 1.25em;
 	width: 105%;
-	margin-left: -7%;
+	margin-left: -3%;
 	margin-top: 0%;
 	margin-bottom: 0%;
 	list-style-type: none;
