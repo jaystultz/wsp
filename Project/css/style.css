@@ -669,7 +669,6 @@ button:hover{
 /* All Mobile Sizes */
 @media only screen and (max-width: 767px) {
 
-}
 
 /* Mobile Landscape Size to Tablet Portrait */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
@@ -677,7 +676,7 @@ button:hover{
 /* =============================================================================
    Site Styles
    ========================================================================== */
-   
+{   
 #logo{
 	max-width: 100%;
 	padding: 0%;
@@ -1063,11 +1062,12 @@ button{
 	width: 30%;
 	margin-left: 0%;
 }
-
-
 }
-/* Mobile Portrait Size to Mobile Landscape Size */
-@media only screen and (max-width: 479px) {}
+======================================/* Mobile Portrait Size to Mobile Landscape Size */
+@media only screen and (max-width: 479px)==============================================
+
+{
+}
 
 
 /* =============================================================================
