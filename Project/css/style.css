@@ -17,14 +17,6 @@ body{
 	background-color: #585858;
 }
 
-body.about #nav #about,
-body.contact #nav #contact,
-body.home #nav #home
-{
-  /* Add your active styles here */
-  color: #cc0000;
-  font-weight: bold;
-  }
 .container{
 	overflow: hidden;
 	background-color: #212121;
@@ -56,7 +48,7 @@ nav li{
 	margin-bottom: 0%;
 	list-style-type: none;
 	padding: 0;
-	border-top: 3px solid #fff;
+	border-top: 3px solid #F3EC24;
 }
 
 .listnav{
@@ -246,7 +238,7 @@ h1{
 	padding: 5% 3% 3% 3%;
 	margin-top: 0%;
 	margin-bottom: -3%;
-	border-top: 3px solid #fff;
+	border-top: 3px solid #F3EC24;
 }
 
 #welcome{
