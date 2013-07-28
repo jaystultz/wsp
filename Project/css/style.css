@@ -649,6 +649,29 @@ button:hover{
 }
 
 
+/*	=============================================================================
+	MEDIA QUERIES
+	========================================================================== */
+	
+	
+/* Tablet Portrait size to Base 996px */
+@media only screen and (min-width: 768px) and (max-width: 995px) {
+
+#motto{
+	font-size: 1.6em;
+	margin-left: 1%;
+	margin-bottom: 10%;
+	/*outline: solid 1px #fff;*/
+}
+
+h1{
+	font-size: 1.6em;
+	line-height: 130%;
+	float: none;
+	margin-bottom: -3%;
+}
+}
+
 
 /* =============================================================================
    Font-Face
