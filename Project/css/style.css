@@ -504,6 +504,7 @@ td.td16{
 	padding: 2%;
 	margin-left: -2%;
 }
+
 #dave{
 	margin: 8% 0% -1% 2%;
 	font-size: 1.25em;
@@ -844,6 +845,161 @@ h1{
 	margin-left: 0%;
 	margin-top: -1%;
 	/*outline: solid 1px #fff;*/
+}
+
+/* =============================================
+   PACKAGES
+   ============================================*/	
+   
+#plans{
+	font-size: 1.25em;
+	padding-top: 5%;
+	width: 100%;
+	margin-top: 1%;
+	/*outline: solid 1px #fff;*/
+}
+
+table{
+	width: 90%;
+	margin: 0 auto;
+}
+
+th{
+	font-size: 1.125em;
+}
+
+td{
+	font-size: .9em;
+}
+
+/* =============================================
+   COACHES
+   ============================================*/
+#meetcoaches{
+	font-size: 1.25em;
+	padding-top: 5%;
+	width: 100%;
+	margin-top: 1%;
+	/*outline: solid 1px #fff;*/
+}   
+
+#trevor{
+	margin: 4% 0% -1% 0%;
+	font-size: 1.125em;
+	/*outline: solid 1px #fff;*/
+}  
+
+#trevbike{
+	margin-left: 0%;
+	margin-top: 4%;
+} 
+
+#trevbio{
+	margin: -2% 2% 1% 0%;
+}
+
+#trevhighlights{
+	margin-left: 0%;
+	margin-top: 2%;
+	font-size: 1em;
+}
+
+.trevor{
+	margin-left: 3%;
+	margin-top: -1%;
+	font-size: .9em;
+	line-height: 180%;
+}
+
+#trevcredentials{
+	margin-left: 0%;
+	margin-top: 2%;
+	font-size: 1em;
+}
+
+#trevsponsorships{
+	margin-left: 0%;
+	margin-top: 2%;
+	font-size: 1em;
+}
+
+#joe{
+	margin: 4% 0% -1% 0%;
+	font-size: 1.125em;
+	/*outline: solid 1px #fff;*/
+}  
+
+#joeprofile{
+	margin-left: 0%;
+	margin-top: 4%;
+} 
+
+#joebio{
+	margin: -2% 2% 1% 0%;
+}
+
+.joe{
+	margin-left: 3%;
+	margin-top: -1%;
+	font-size: .9em;
+	line-height: 180%;
+}
+
+#joehighlights{
+	margin-left: 0%;
+	margin-top: 2%;
+	font-size: 1em;
+}
+
+#joecredentials{
+	margin-left: 0%;
+	margin-top: 2%;
+	font-size: 1em;
+}
+
+#coachdave{
+	padding: 6%;
+	margin-left: -6%;
+	/*outline: 1px solid #fff;*/
+}
+#dave{
+	margin: 4% 0% -1% 0%;
+	font-size: 1.125em;
+	/*outline: solid 1px #fff;*/
+}  
+
+#davebike{
+	margin-left: 0%;
+	margin-top: 4%;
+} 
+
+#davebio{
+	margin: -2% 2% 1% 0%;
+}
+
+.dave{
+	margin-left: 3%;
+	margin-top: -1%;
+	font-size: .9em;
+	line-height: 180%;
+}
+
+#davehighlights{
+	margin-left: 0%;
+	margin-top: 2%;
+	font-size: 1em;
+}
+
+#davecredentials{
+	margin-left: 0%;
+	margin-top: 2%;
+	font-size: 1em;
+}
+
+#davesponsorships{
+	margin-left: 0%;
+	margin-top: 2%;
+	font-size: 1em;
 }
 }
 /* Mobile Portrait Size to Mobile Landscape Size */
