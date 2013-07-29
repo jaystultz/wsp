@@ -114,7 +114,7 @@ a.hoverable:active{
 	color: #212121;
 }
 
-.nav .currenthoverable, .nav:hover.currenthoverable{
+.nav .currenthoverable, .nav:active.currenthoverable{
 	display: block;
 	height: 40px;
 	line-height: 40px;
