@@ -37,7 +37,6 @@ nav{
 nav li{
 	background-color: #212121;
 	display: inline;
-	
 }
 
 .nav{
@@ -55,11 +54,9 @@ nav li{
 	width: 16.6666666666667%;
 	float: left;
 	clear: right;
-	
 }
 
 #nav{
-	/*outline: 2px solid #fff;*/
 	width: 100%;
 	margin-left: -4%;
 	margin-top: 10%;
@@ -106,7 +103,6 @@ a.hoverable{
   	border-radius: 3px;
   	-webkit-box-shadow: inset 0 1px 0 0 #909090;
   	box-shadow: inset 0 1px 0 0 #909090;
-  	/*outline: 1px solid #fff;*/
 }
 
 a.hoverable:hover{
@@ -133,19 +129,6 @@ a:hover{
 a:active{
 	color: #000;
 	background-color: #fff;
-}
-
-
-h2{
-
-}
-
-h3{
-
-}
-
-h4{
-	/*outline: 1px solid #fff;*/
 }
 
 a.email:hover{
@@ -185,14 +168,11 @@ footer img {
 	background-color: #fff;
 	margin: -5% 0% 10% -3%;
 	padding-bottom: 1%;
+	padding-top: 3%;
 }
 
 #footergallery{
 	margin: 2% 1% 2% -1%;
-}
-
-.footerlink{
-
 }
 
 #contactinfo{
@@ -240,7 +220,6 @@ h1{
 	padding: 3%;
 	margin-bottom: -1%;
 	background-color: #212121;
-	/*outline: 1px solid #fff;*/
 }
 
 #homecontent{
@@ -301,12 +280,10 @@ h1{
 	padding: 0;
 	margin-left: 1%;
 	border: none;
-	/*outline: solid 1px #fff;*/
 }
 
 #coachingphilosophy{
 	margin: 6% 0% 0% 1%;
-	/*outline: solid 1px #fff;*/
 }
 
 #coachingarticle{
@@ -315,7 +292,6 @@ h1{
 	padding-right: 17%;
 	margin-left: 0%;
 	margin-top: -1%;
-	/*outline: solid 1px #fff;*/
 }
 
 #signature{
@@ -632,7 +608,6 @@ button{
 	background: -o-linear-gradient(top,  #999999 0%,#909090 49%,#808080 51%,#999999 100%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(top,  #999999 0%,#909090 49%,#808080 51%,#999999 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  #999999 0%,#909090 49%,#808080 51%,#999999 100%); /* W3C */
-
 }
 
 button:hover{
@@ -1055,8 +1030,375 @@ button{
 	width: 30%;
 	margin-left: 0%;
 }
-
 }
+
+
+/* Mobile Portrait Size to Mobile Landscape Size */
+@media only screen and (max-width: 479px) {
+
+/* =============================================================================
+   Site Styles
+   ========================================================================== */
+
+#logo{
+	max-width: 100%;
+	padding: 0%;
+	margin-left: 5%; 
+}
+
+#header{
+	margin: 0 auto;
+	padding: 2%;
+}
+
+#nav{
+	background: none;
+}
+
+.hoverable{
+	width: 114%;
+	margin: 0 auto;
+}
+
+a.hoverable{
+	height: 50px;
+	line-height: 50px;
+	font-size: 1.25em;
+ 	border: 1px solid #999;
+  	border-right: 1px solid #999;
+  	border-bottom: 1px solid #999;
+  	border-top: 1px solid #212121;
+}
+
+.navlist{
+	float: none;
+	clear: none;
+}
+
+#motto{
+	display: none;
+}
+   
+footer{
+	margin: 10% 0% 5% 0%;
+}
+
+footer img {
+	margin-top: 0%;
+}
+
+#sponsorsfooter{
+	width: 100%;
+	margin: -5% 0% 10% -15%;
+	padding-right: 25%;
+}
+
+#contactinfo{
+	width: 110%;
+	margin: 5% 0% 5% -8%;
+	padding: 5% 5% 5% 5%;
+}
+
+#footer{
+	margin-top: -10%;
+	margin-bottom: 10%;
+	font-size: .75em
+}
+   
+   
+
+/* =============================================
+   HOME
+   ============================================*/	
+   
+#headerimage{
+	float: none;
+	padding: 0%;
+	width: 110%;
+}
+
+.nav{
+	font-size: 1em;
+	width: 100.5%;
+	margin: 0 auto;
+	list-style-type: none;
+	padding: 0;
+	border-top: none;
+}
+
+.listnav{
+	float: none;
+	clear: none;
+}
+
+#h1{
+	display: none;
+}
+
+#welcome{
+	margin-left: 0%;
+	margin-top: -3%;
+	font-size: 1em;
+	padding-left: 6%;
+	padding-right: 9%;
+}
+
+#homecontent{
+	padding-left: 6%;
+}
+
+#signature{
+	font-size: 1em;
+}
+
+#iconshome{
+	margin: 0;	
+	padding-left: 20%;
+}
+
+#fbiconhome{
+	width: 25%;
+	margin-left: 0%;
+	padding: 1%;
+}
+
+#emailiconhome{
+	width: 25%;
+	padding: 1%;
+}
+
+#coachtrevor1{
+	display: none;
+}
+
+
+/* =============================================
+   PHILOSOPHY
+   ============================================*/	
+
+
+#coachingphilosophy{
+	margin-left: 5%;
+	font-size: 1.25em;
+	/*outline: solid 1px #fff;*/
+}
+
+#coachingarticle{
+	padding-left: 8%;
+	padding-right: 17%;
+	margin-left: 0%;
+	/*outline: solid 1px #fff;*/
+}
+
+/* =============================================
+   PACKAGES
+   ============================================*/	
+   
+#plans{
+	margin-left: 5%;
+	font-size: 1.25em;
+	/*outline: solid 1px #fff;*/
+}
+
+table{
+	width: 90%;
+	margin: 0 auto;
+}
+
+th{
+	font-size: 1em;
+}
+
+td{
+	font-size: .8em;
+}
+
+/* =============================================
+   COACHES
+   ============================================*/
+#meetcoaches{
+	margin-left: 5%;
+	font-size: 1.25em;
+	/*outline: solid 1px #fff;*/
+}   
+
+#trevor{
+	margin: 4% 0% -1% 0%;
+	font-size: 1.125em;
+	/*outline: solid 1px #fff;*/
+}  
+
+#trevbike{
+	margin-left: 0%;
+	margin-top: 4%;
+} 
+
+#trevbio{
+	margin: -2% 2% 1% 0%;
+}
+
+#trevhighlights{
+	margin-left: 0%;
+	margin-top: 2%;
+	font-size: 1em;
+}
+
+.trevor{
+	margin-left: 3%;
+	margin-top: -1%;
+	font-size: .9em;
+	line-height: 180%;
+}
+
+#trevcredentials{
+	margin-left: 0%;
+	margin-top: 2%;
+	font-size: 1em;
+}
+
+#trevsponsorships{
+	margin-left: 0%;
+	margin-top: 2%;
+	font-size: 1em;
+}
+
+#joe{
+	margin: 4% 0% -1% 0%;
+	font-size: 1.125em;
+	/*outline: solid 1px #fff;*/
+}  
+
+#joeprofile{
+	margin-left: 0%;
+	margin-top: 4%;
+} 
+
+#joebio{
+	margin: -2% 2% 1% 0%;
+}
+
+.joe{
+	margin-left: 3%;
+	margin-top: -1%;
+	font-size: .9em;
+	line-height: 180%;
+}
+
+#joehighlights{
+	margin-left: 0%;
+	margin-top: 2%;
+	font-size: 1em;
+}
+
+#joecredentials{
+	margin-left: 0%;
+	margin-top: 2%;
+	font-size: 1em;
+}
+
+#coachdave{
+	padding: 8%;
+	margin-left: -8%;
+	/*outline: 1px solid #fff;*/
+}
+#dave{
+	margin: 4% 0% -1% 0%;
+	font-size: 1.125em;
+	/*outline: solid 1px #fff;*/
+}  
+
+#davebike{
+	margin-left: 0%;
+	margin-top: 4%;
+} 
+
+#davebio{
+	margin: -2% 2% 1% 0%;
+}
+
+.dave{
+	margin-left: 3%;
+	margin-top: -1%;
+	font-size: .9em;
+	line-height: 180%;
+}
+
+#davehighlights{
+	margin-left: 0%;
+	margin-top: 2%;
+	font-size: 1em;
+}
+
+#davecredentials{
+	margin-left: 0%;
+	margin-top: 2%;
+	font-size: 1em;
+}
+
+#davesponsorships{
+	margin-left: 0%;
+	margin-top: 2%;
+	font-size: 1em;
+}
+
+/* =============================================
+   GALLERY
+   ============================================*/
+#galleryheading{
+	margin-left: 5%;
+	font-size: 1.25em;
+	/*outline: solid 1px #fff;*/
+}   
+
+aside{
+	background: #212121;
+	padding-right: 3%;
+}
+aside img{
+	width: 50%;
+	margin: 1% 25% 10% 25%;
+	border: 2px solid #f3ec24;
+}
+
+/* =============================================
+   CONTACT US
+   ============================================*/
+   
+#us{
+	margin-left: 5%;
+	font-size: 1.25em;
+	/*outline: solid 1px #fff;*/
+}   
+
+#contact{
+	width: 100%;
+	padding-right: 4%;
+	padding-left: 4%;
+	/*outline: 1px solid 	#fff;*/
+}
+
+label{
+	text-align: left;
+	margin-left: 2%;
+}
+
+textarea{
+	width: 90%;
+	margin: 1% 1% .5% 0%;
+}
+
+#hear_us{
+	margin: 1% 1% 5% 0%;
+	width: 50%;
+}
+
+button{
+	width: 30%;
+	margin-left: 0%;
+}
+}
+
+
 /* =============================================================================
    Font-Face
    ========================================================================== */
