@@ -79,44 +79,7 @@ nav li{
 	float: left;
 	clear: right;
 }  
-
-a:link{
-	color: #fff;
-}
-
-a:visited{
-	color: #999;
-}
-
-a:hover{
-	color: #f8ec24;
-}
-
-a:active{
-	color: #000;
-	background-color: #fff;
-}
-
-a.email:hover{
-	color: #f8ec24;
-}
-
-a.email:link{
-	color: #999;
-}
-
-a.email:visited{
-	color: #fff;
-}
-
-a.email:hover{
-	color: #f8ec24;
-}
-
-a.email:active{
-	color: #fff;
-}
-
+  
 a.hoverable{
 	display: block;
 	height: 40px;
@@ -143,7 +106,7 @@ a.hoverable{
 }
 
 a.hoverable:hover{
-	color: #f8ec24;
+	color: #212121;
 	background-color: #000;
 }
 
