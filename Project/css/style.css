@@ -1044,6 +1044,7 @@ button{
 	max-width: 100%;
 	padding: 0%;
 	margin-left: 5%; 
+	margin-bottom: -17%;
 }
 
 #header{
@@ -1100,6 +1101,7 @@ footer img {
 }
 
 #footer{
+	width: 103%;
 	margin-top: -10%;
 	margin-bottom: 10%;
 	font-size: .75em
@@ -1123,6 +1125,7 @@ footer img {
 	margin: 0 auto;
 	list-style-type: none;
 	padding: 0;
+	padding-bottom: 1%;
 	border-top: none;
 }
 
@@ -1137,10 +1140,11 @@ footer img {
 
 #welcome{
 	margin-left: 0%;
-	margin-top: -3%;
+	margin-top: 10%;
 	font-size: 1em;
 	padding-left: 6%;
 	padding-right: 9%;
+	padding-top: 4%;
 }
 
 #homecontent{
