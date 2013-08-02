@@ -687,6 +687,10 @@ a.hoverable{
   	/*outline: 1px solid #fff;*/
 }
 
+.nav .currenthoverable, .nav:active.currenthoverable{
+	font-size: .9em;
+}
+
 footer{
 	margin: 10% 0% 5% 0%;
 }
