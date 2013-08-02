@@ -107,10 +107,6 @@ a.email:visited{
 	color: #fff;
 }
 
-a.email:hover{
-	color: #f8ec24;
-}
-
 a.email:active{
 	color: #fff;
 }
@@ -141,7 +137,7 @@ a.hoverable{
 }
 
 a.hoverable:hover{
-	color: #f8ec24;
+	color: #fff8a2;
 	background-color: #000;
 }
 
