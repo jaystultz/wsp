@@ -107,6 +107,10 @@ a.email:visited{
 	color: #fff;
 }
 
+a.email:hover{
+	color: #f8ec24;
+}
+
 a.email:active{
 	color: #fff;
 }
@@ -137,7 +141,7 @@ a.hoverable{
 }
 
 a.hoverable:hover{
-	color: #fafad2;
+	color: #FFFFB2;
 	background-color: #000;
 }
 
@@ -617,7 +621,6 @@ h1{
 	margin-bottom: -3%;
 }
 
-
 #john{
 	margin: 0 5%;
 }
@@ -632,13 +635,6 @@ h1{
 
 #richard{
 	margin: 0 5%;
-}
-
-#footer{
-	text-align: left;
-	margin-top: -1%;
-	margin-bottom: 3%;
-	margin-left: 1%;
 }
 
 }
@@ -683,10 +679,6 @@ a.hoverable{
   	/*outline: 1px solid #fff;*/
 }
 
-.nav .currenthoverable, .nav:active.currenthoverable{
-	font-size: .9em;
-}
-
 footer{
 	margin: 10% 0% 5% 0%;
 }
@@ -720,9 +712,9 @@ footer img {
 
 #footer{
 	text-align: left;
-	margin-top: 0%;
-	margin-bottom: 7%;
-	margin-left: -2%;
+	margin-top: -3%;
+	margin-bottom: 5%;
+	margin-left: -3%;
 	font-family: 'Lato', Helvetica, Arial, sans-serif; /* 16px */
 	color: #fff;
 	padding: 0;
@@ -1079,10 +1071,9 @@ footer img {
 
 #footer{
 	width: 103%;
-	margin-top: -3%;
+	margin-top: -10%;
 	margin-bottom: 10%;
-	margin-left: -3%;
-	font-size: .70em
+	font-size: .75em
 }
    
    
