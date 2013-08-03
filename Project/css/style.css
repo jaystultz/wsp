@@ -1066,7 +1066,7 @@ h2{
 	padding-top: 4%;
 	font-size: 1.25em;
 	line-height: 130%;
-	outline: 1px solid #fff;
+	/*outline: 1px solid #fff;*/
 }
    
 footer{
@@ -1129,7 +1129,7 @@ footer img {
 	padding-left: 6%;
 	padding-right: 25%;
 	width: 69%;
-	outline: 1px solid #fff;
+	/*outline: 1px solid #fff;*/
 }
 
 #homecontent{
