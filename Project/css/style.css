@@ -1063,6 +1063,7 @@ a.hoverable{
 
 h2{
 	padding-right: 10%;
+	font-size: 1.25em;
 }
    
 footer{
@@ -1123,10 +1124,12 @@ footer img {
 #welcome{
 	margin-left: 0%;
 	margin-top: 10%;
-	font-size: 1em;
 	padding-left: 6%;
-	padding-right: 9%;
+	padding-right: 25%;
 	padding-top: 4%;
+	line-height: 130%;
+	width: 69%;
+	outline: 1px solid #fff;
 }
 
 #homecontent{
