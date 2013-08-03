@@ -1087,8 +1087,9 @@ footer img {
 
 #footer{
 	width: 103%;
-	margin-top: -10%;
+	margin-top: 1%;
 	margin-bottom: 10%;
+	margin-left: -3%;
 	font-size: .75em
 }
    
