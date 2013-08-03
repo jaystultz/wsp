@@ -679,9 +679,13 @@ h1{
 	background: linear-gradient(to right,  #212121 0%,#fdf021 100%); /* W3C */
 }
 
-.nav .currenthoverable, .nav:active.currenthoverable{
+a.hoverable{
   	font-size: .9em;
   	/*outline: 1px solid #fff;*/
+}
+
+.nav .currenthoverable, .nav:active.currenthoverable{
+	font-size: .9em;
 }
 
 footer{
@@ -751,6 +755,13 @@ h1{
 	float: none;
 	border-top: none;
 	margin-bottom: -1%;
+}
+
+#welcome{
+	font-size: 1.25em;
+	padding-top: 5%;
+	width: 100%;
+	margin-top: 1%;
 }
 
 #signature{
