@@ -262,18 +262,21 @@ footer img {
 	font-style: italic;
 }
 
-#iconshome{
+/*#icons{
 	margin-left: -6%;
 	margin-bottom: 5%;
-}
-#fbiconhome{
-	padding: 1%;
-	margin-bottom: 3%;
+}*/
+
+.icons{
+	background: none;
+	width: 8%;
+	border-radius: 10px;
+	margin-right: 3%;
+	margin-top: -2%;
 }
 
-#emailiconhome{
-	margin-left: -3.5%;
-	padding: 1%;
+.icons:hover{
+	background: #f8ec24;
 }
 
 #coachtrevor1{
